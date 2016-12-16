@@ -1,5 +1,8 @@
 import java.net.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.io.*;
+
 import org.json.*;
 
 public class GameManager {
@@ -124,6 +127,35 @@ public class GameManager {
 		    	this.game.black_can_castle_king_side = black_ks;
 		    	this.game.black_can_castle_queen_side = black_qs;
 		    	this.game.en_passant = en_passant;
+		    	
+		    	//generate lists of pieces...
+		    	//(and king location)
+		    	PieceFactory pf = new PieceFactory();
+		    	game.white_pieces.clear();
+				game.black_pieces.clear();
+				
+		    	for (int i = 0; i < 8; i++){
+					for (int j = 0; j < 8; j++){
+						String cell = board[i][j];
+						if (!cell.equals("")){
+							int[] position = new int[]{i, j};		
+								//piece belongs to player
+								Piece piece = pf.createPiece(cell, position);
+								if (piece.color == Color.White){
+									game.white_pieces.add(piece);
+									if (cell.equals("K")){
+										game.white_king_position = new int[]{i, j}; 
+									}
+								}
+								else{
+									game.black_pieces.add(piece);
+									if (cell.equals("k")){
+										game.black_king_position = new int[]{i, j};
+									}
+								}
+						}
+					}
+				}
 		    }
 		    rd.close();
 		} catch (Exception e) {
