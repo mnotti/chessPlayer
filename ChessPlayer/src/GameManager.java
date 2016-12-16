@@ -69,9 +69,15 @@ public class GameManager {
 				//wait a second so i can see changes...
 			}
 			//now that it is client turn, generate and make move...
-			int[] move = game.generateDefaultMove();
-			sendMove(move);	
-			pollAndUpdate();
+			Move move = game.generateDefaultMove();
+			if (move != null){
+				sendMove(move);	
+				pollAndUpdate();
+			}
+			else{
+				System.out.println("NO MORE MOVES LEFT...exiting...");
+				return;
+			}
 		}
 	}
 	
@@ -167,18 +173,16 @@ public class GameManager {
 		}
 	}
 	//returns true if the move is accepted and is valid... false if receives move invalid...
-	public Boolean sendMove(int[] move){
+	public Boolean sendMove(Move move){
 		try {
 		    // Construct data
-			int from[] = new int[]{move[0], move[1]};
-			int to[] = new int[]{move[2], move[3]};
 			
 			JSONObject obj = new JSONObject();
 			obj.put("token", this.player_token);
-			obj.put("from", from);
-			obj.put("to", to);
+			obj.put("from", move.from);
+			obj.put("to", move.to);
 			
-			System.out.println("Sending Move from: [" + from[0] + "," + from[1] + "], to: [" + to[0] + "," + to[1] + "]");
+			System.out.println("Sending Move from: [" + move.from[0] + "," + move.from[1] + "], to: [" + move.to[0] + "," + move.to[1] + "]");
 			String data = obj.toString();
 		   
 		    // Send data

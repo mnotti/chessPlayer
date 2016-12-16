@@ -1,3 +1,4 @@
+import java.util.*;
 
 public class Game {
 	Boolean white_can_castle_king_side = true;
@@ -18,23 +19,59 @@ public class Game {
 		this.client_color = client_color;
 	}
 	
-	//moves are generated in the form [0,1, 0,0] (to: 0,0, from: 0,1)
-	public int[] generateDefaultMove(){
-		//find the first piece belonging to player that can be moved and move it 
-		//TODO: check for pieces not pawns...
-		int def[] = {0,0,0,1};
+	public List<Move> allPossibleMoves(){
+		List<Move> moves = new ArrayList<Move>();
+		PieceFactory pf = new PieceFactory();
 		for (int i = 0; i < 8; i++){
 			for (int j = 0; j < 8; j++){
-				String piece = board[i][j];
-				if(piece.equals("p") && client_color == Color.Black){
-					int move[] = new int[]{i,j,i+1,j};
-					return move;
-				}else if(piece.equals("P") && client_color == Color.White){
-					int move[] = new int[]{i,j,i-1,j};
-					return move;
+				String cell = board[i][j];
+				if (!cell.equals("")){
+					int[] position = new int[]{i, j};
+					if (Character.isUpperCase(cell.charAt(0))){
+						if(client_color == Color.White){
+							//piece belongs to player
+							Piece piece = pf.createPiece(cell, position);
+							List<Move> piece_moves = piece.allPossibleMoves(this);
+							moves.addAll(piece_moves);
+						}
+					}else{
+						if(client_color == Color.Black){
+							//piece belongs to player
+							Piece piece = pf.createPiece(cell, position);
+							List<Move> piece_moves = piece.allPossibleMoves(this);
+							moves.addAll(piece_moves);
+						}
+					}
 				}
 			}
 		}
-		return def;
+		return moves;
+	}
+	
+	//moves are generated in the form [0,1, 0,0] (to: 0,0, from: 0,1)
+	public Move generateDefaultMove(){
+		//find the first piece belonging to player that can be moved and move it 
+		//TODO: check for pieces not pawns...
+		List<Move> moves = allPossibleMoves();
+		if (moves.isEmpty()){
+			return null;
+		}
+		else{
+			Random generator = new Random();
+			int i = generator.nextInt(moves.size());
+			return moves.get(i);
+		}
+	}
+	
+	public Color colorOfPieceInCell(int i, int j){
+		String piece_in_cell = board[i][j];
+		if (piece_in_cell.equals("")){
+			return Color.NoColor;
+		}else if (Character.isUpperCase(piece_in_cell.charAt(0))){
+			return Color.White;
+		}
+		else{
+			return Color.Black;
+		}
 	}
 }
