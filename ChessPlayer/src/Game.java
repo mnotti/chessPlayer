@@ -58,15 +58,39 @@ public class Game {
 		this.black_can_castle_king_side = game.black_can_castle_king_side;
 		this.black_can_castle_queen_side = game.black_can_castle_queen_side;
 		this.afoot = game.afoot;
-		this.board = game.board;
-		this.turn = game.turn;
-		this.client_color = game.client_color;
-		this.en_passant = game.en_passant;
+		this.turn = (game.turn == Color.White ? Color.White : Color.Black);
+		this.client_color = (game.client_color == Color.White ? Color.White : Color.Black);
+		this.en_passant[0] = game.en_passant[0];
+		this.en_passant[1] = game.en_passant[1];
 		this.id = game.id;
-		this.white_pieces = game.white_pieces;
-		this.black_pieces = game.black_pieces;
-		this.white_king_position = game.white_king_position;
-		this.black_king_position = game.black_king_position;
+		
+		PieceFactory pf = new PieceFactory();
+		this.white_pieces = new ArrayList<Piece>();
+		this.black_pieces = new ArrayList<Piece>();
+		
+    	for (int i = 0; i < 8; i++){
+			for (int j = 0; j < 8; j++){
+				String cell = game.board[i][j];
+				this.board[i][j] = cell;
+				if (!cell.equals("")){
+					int[] position = {i, j};		
+						//piece belongs to player
+						Piece piece = pf.createPiece(cell, position);
+						if (piece.color == Color.White){
+							this.white_pieces.add(piece);
+							if (cell.equals("K")){
+								this.white_king_position = new int[]{i, j}; 
+							}
+						}
+						else{
+							this.black_pieces.add(piece);
+							if (cell.equals("k")){
+								this.black_king_position = new int[]{i, j};
+							}
+						}
+				}
+			}
+		}
 	}
 	
 	public List<Move> allPossibleMoves(){
@@ -80,13 +104,12 @@ public class Game {
 	
 	//moves are generated in the form [0,1, 0,0] (to: 0,0, from: 0,1)
 	public Move generateDefaultMove(){
-		//find the first piece belonging to player that can be moved and move it 
-		//TODO: check for pieces not pawns...
 		List<Move> moves = allPossibleMoves();
 		if (moves.isEmpty()){
 			return null;
 		}
 		else{
+			printMoves(moves);
 			Random generator = new Random();
 			int i = generator.nextInt(moves.size());
 			return moves.get(i);
@@ -103,5 +126,14 @@ public class Game {
 		else{
 			return Color.Black;
 		}
+	}
+	
+	public void printMoves(List<Move> moves){
+		System.out.println("Moves generated:");
+		for (Move m : moves){
+			System.out.println("From: [" + m.from[0] + "," + m.from[1] + "], " + "To: [" + m.to[0] + "," + m.to[1] + "]");	
+		}
+		System.out.println("\n");
+		
 	}
 }

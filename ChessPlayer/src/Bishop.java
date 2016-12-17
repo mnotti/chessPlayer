@@ -19,13 +19,10 @@ public class Bishop extends Piece {
 		List<Move> moves = new ArrayList<Move>();
 		return moves;
 	}
-	public Boolean doesThreaten(Game game, int[] position){
+
+	public Game makeMoveSpecificDetails(Move move, Game ng){
 		//TODO
-		return false;
-	}
-	public Game makeMove(Move move, Game game){
-		//TODO
-		return game;
+		return ng;
 	}
 	
 }

@@ -8,6 +8,7 @@ public class Knight extends Piece {
 		//all moves that would be valid on a blank board
 		List<Move> moves = blankBoardMoves();
 		//removes moves that move to space occupied by friendly piece
+		System.out.println(color == Color.White ? "White" : (color == Color.Black ? "Black" : "Neither"));
 		removeFriendlyTargetMoves(moves, game);
 		//removes moves that would leave king in check
 		removeStillInCheckMoves(moves, game);
@@ -38,26 +39,7 @@ public class Knight extends Piece {
 		List<Move> moves = blankBoardMoves();
 		return moves;
 	}
-	public Boolean doesThreaten(Game game, int[] position){
-		List<Move> threateningMoves = threatens(game);
-		for(Move m : threateningMoves){
-			if (m.to[0] == position[0] && m.to[1] == position[1]){
-				return true;
-			}
-		}
-		return false;
-	}
-	public Game makeMove(Move move, Game game){
-		Game ng = new Game(game);
-		for (Piece p : (ng.client_color == Color.White ? ng.white_pieces : ng.black_pieces)){
-			if (p.position[0] == move.from[0] && p.position[1] == move.from[1]){
-				p.position[0] = move.to[0];
-				p.position[1] = move.to[1];
-				ng.board[move.from[0]][move.from[1]] = "";
-				ng.board[move.to[0]][move.to[1]] = (p.color == Color.White ? "K" : "k");
-			}
-		}
-		ng.turn = (ng.turn == Color.White ? Color.Black : Color.White);
+	public Game makeMoveSpecificDetails(Move move, Game ng){
 		ng.en_passant[0] = -1;
 		ng.en_passant[1] = -1;
 		return ng;

@@ -30,7 +30,6 @@ public class GameManager {
 		    wr.flush();
 
 		    // Get the response
-		    System.out.println("Getting response...");
 		    BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 		    String line;
 		    while ((line = rd.readLine()) != null) {
@@ -49,7 +48,6 @@ public class GameManager {
 		    	Color c_turn = turn ? Color.Black : Color.White;
 		    	this.game = new Game(id, board, c_turn, Color.Black);
 		    	this.player_token = player_token;
-		    	printBoard(board);
 		    }
 		    wr.close();
 		    rd.close();
@@ -65,13 +63,14 @@ public class GameManager {
 			while(game.client_color != game.turn){
 				pollAndUpdate();
 				try {
-				    Thread.sleep(5000);
+				    Thread.sleep(100);
 				} catch(InterruptedException ex) {
 				    Thread.currentThread().interrupt();
 				}
 				//wait a second so i can see changes...
 			}
 			//now that it is client turn, generate and make move...
+			printBoard(game.board);
 			Move move = game.generateDefaultMove();
 			if (move != null){
 				sendMove(move);	
@@ -92,13 +91,10 @@ public class GameManager {
 		    URLConnection conn = url.openConnection();
 
 		    // Get the response
-		    System.out.println("Handling state response...");
 		    BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 		    String line;
 		    if ((line = rd.readLine()) != null) {
-		    	JSONObject obj = new JSONObject(line);
-		    	System.out.println(obj.toString());
-		    	
+		    	JSONObject obj = new JSONObject(line);		    	
 		    	JSONObject en_passant_obj = obj.getJSONObject("en_passant");
 		    	int en_passant[] = new int[2];	
 		    	en_passant[0] = en_passant_obj.getInt("x"); 
@@ -178,7 +174,6 @@ public class GameManager {
 		    wr.flush();
 
 		    // Get the response
-		    System.out.println("Getting response...");
 		    BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 		    String line;
 		    if ((line = rd.readLine()) != null) {
@@ -196,7 +191,6 @@ public class GameManager {
 		    	}
 		    	this.game = new Game(id, board, Color.White, Color.White);
 		    	this.player_token = player_token;
-		    	printBoard(board);
 		    }
 		    wr.close();
 		    rd.close();
@@ -226,7 +220,6 @@ public class GameManager {
 		    wr.flush();
 
 		    // Get the response
-		    System.out.println("Getting response...");
 		    BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 		    String line;
 		    if ((line = rd.readLine()) != null) {
