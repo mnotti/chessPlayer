@@ -1,4 +1,5 @@
 import static org.junit.Assert.*;
+import java.util.*;
 
 import org.junit.*;   // instead of  import org.junit.Test;
 
@@ -28,13 +29,54 @@ public class GameTest {
 	}
 
 	@Test
-	public void testAllPossibleMoves() {
-		assertTrue(true);
+	public void testMakeMove() {
+		Game ng = this.game.makeMove(new Move(1,0,3,0), Color.Black);
+		assertEquals(ng.board[3][0], "p");
+		assertEquals(ng.board[1][0], "");
+	}
+	
+	@Test
+	public void testMinimaxBestMove(){
+		int id = 2;
+		Color c_turn = Color.White;
+		String board[][] = new String[][]
+							 {{"r", "n", "b", "k",  "", "b", "n", "r"},
+							  {"p", "p", "p", "p",  "", "p", "p", "p"},
+							  {"" ,  "",  "",  "",  "", "" , "" , "" },
+							  {"" ,  "",  "",  "", "p", "" , "" , "" },
+							  {"" ,  "",  "", "P",  "", "" , "" , "" },
+							  {"" ,  "",  "",  "",  "", "" , "" , "" },
+							  {"P", "P", "P",  "", "P", "P", "P", "P"},
+							  {"R", "N", "B", "K", "Q", "B", "N", "R"}};
+		Game game = new Game(id, board, c_turn, Color.White);
+		Move bestMove = game.minimaxBestMove(1);
+		assertEquals(3, bestMove.to[0]);
+		assertEquals(4, bestMove.to[1]);
+		assertEquals(4, bestMove.from[0]);
+		assertEquals(3, bestMove.from[1]);
 	}
 
 	@Test
-	public void testGenerateDefaultMove() {
-		assertTrue(true);
+	public void testEvaluate() {
+		assertEquals(0, this.game.evaluate(this.game));
+	}
+	
+	@Test
+	public void testPossibleMovesPawnAttack(){
+		int id = 2;
+		Color c_turn = Color.White;
+		String board[][] = new String[][]
+							 {{"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "","p", "", "", ""},
+							  {"" , "", "", "P", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""}};
+		Game game = new Game(id, board, c_turn, Color.White);
+		List<Move> possible_moves = game.allPossibleMoves(Color.White, game);
+		assertEquals(2, possible_moves.size());
 	}
 
 	@Test

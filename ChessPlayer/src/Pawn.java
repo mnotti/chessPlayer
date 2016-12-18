@@ -14,10 +14,11 @@ public class Pawn extends Piece {
 		filterAttackingMoves(attackingMoves, game);
 		moves.addAll(attackingMoves);
 		//determine all non attacking moves...
-		moves.addAll(blankBoardMoves(game));
+		List<Move> blank_board_moves = blankBoardMoves(game);
+		removeBlockedMoves(blank_board_moves, game);
+		moves.addAll(blank_board_moves);
 		//then eliminate possibilities (if necessary)
 		removeFriendlyTargetMoves(moves, game);
-		removeBlockedMoves(moves, game);
 		removeStillInCheckMoves(moves, game);
 		
 		return moves;
@@ -94,6 +95,8 @@ public class Pawn extends Piece {
 	}
 
 	public Game makeMoveSpecificDetails(Move move, Game ng){
+		ng.board[move.to[0]][move.to[1]] = (color == Color.White ? "P" : "p");
+		
 		if (Math.abs(move.to[0] - move.from[0]) == 1){
 			ng.en_passant[0] = -1;
 			ng.en_passant[1] = -1;

@@ -9,10 +9,13 @@ public class GameManager {
 	Game game;
 	String player_token;
 	String address;
+	long total_moves;
+	long total_move_time;
 	
 	public GameManager(String address){
 		this.address = address;
-		System.out.println(this.address);
+		this.total_moves = 0;
+		this.total_move_time = 0;
 	}
 	
 	public void joinGame(int id){
@@ -63,7 +66,7 @@ public class GameManager {
 			while(game.client_color != game.turn){
 				pollAndUpdate();
 				try {
-				    Thread.sleep(100);
+				    Thread.sleep(1000);
 				} catch(InterruptedException ex) {
 				    Thread.currentThread().interrupt();
 				}
@@ -71,7 +74,20 @@ public class GameManager {
 			}
 			//now that it is client turn, generate and make move...
 			printBoard(game.board);
-			Move move = game.generateDefaultMove();
+			
+			//uncomment for random un-intelligent move
+			//Move move = game.generateRandMove();
+			
+			//uncomment for basic minimax using intelligence (if you can call it that lololol)
+			int depth = 2; //TODO: make variable input?
+			long startTime = System.nanoTime();
+			Move move = game.minimaxBestMove(depth);
+			long endTime = System.nanoTime();
+			long duration = (endTime - startTime)/1000000;  //divide by 1000000 to get milliseconds.
+			this.total_move_time += duration;
+			this.total_moves += 1;
+			System.out.println("Current Move Average: " + this.total_move_time/this.total_moves);
+			
 			if (move != null){
 				sendMove(move);	
 				pollAndUpdate();

@@ -7,7 +7,6 @@ public class ChessPlayer {
 		GameManager gm = new GameManager(address);
 		if (action.equals("create")){
 			gm.createGame();
-			System.out.println("in create conditional");
 		}
 		else if(action.equals("join")){
 			int id = Integer.parseInt(args[2]);

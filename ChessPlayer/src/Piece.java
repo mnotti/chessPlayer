@@ -17,7 +17,7 @@ public abstract class Piece {
 		    Move m = iterator.next();
 		    if (game.colorOfPieceInCell(m.to[0], m.to[1]) == color){
 		    	//if move is to a cell with a friendly piece... remove that sucka...
-		    	System.out.println("removing " + "From: [" + m.from[0] + "," + m.from[1] + "], " + "To: [" + m.to[0] + "," + m.to[1] + "]");
+		    	//System.out.println("removing " + "From: [" + m.from[0] + "," + m.from[1] + "], " + "To: [" + m.to[0] + "," + m.to[1] + "]");
 		    	iterator.remove();
 			}
 
@@ -32,6 +32,7 @@ public abstract class Piece {
 		    for (Piece p : (game.turn == Color.White ? ng.black_pieces : ng.white_pieces)){
 		    	if (p.doesThreaten(ng, (game.turn == Color.White ? ng.white_king_position : ng.black_king_position))){
 		    		iterator.remove();
+		    		break;
 		    	}
 		    }
 
@@ -55,7 +56,6 @@ public abstract class Piece {
 				p.position[0] = move.to[0];
 				p.position[1] = move.to[1];
 				ng.board[move.from[0]][move.from[1]] = "";
-				ng.board[move.to[0]][move.to[1]] = (p.color == Color.White ? "P" : "p");
 			}
 		}
 		//iterate through opponent's pieces...

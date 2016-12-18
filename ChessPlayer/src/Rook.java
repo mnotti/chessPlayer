@@ -68,6 +68,7 @@ public class Rook extends Piece {
 	}
 
 	public Game makeMoveSpecificDetails(Move move, Game ng){
+		ng.board[move.to[0]][move.to[1]] = (color == Color.White ? "R" : "r");
 		ng.en_passant[0] = -1;
 		ng.en_passant[1] = -1;
 		//castling stuff
