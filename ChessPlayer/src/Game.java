@@ -161,10 +161,19 @@ public class Game {
 			color = (client_color == Color.White ? Color.Black : Color.White);
 		}
 		
+		List<Move> possible_moves = allPossibleMoves(color, game);
+		//first check if no moves are possible...
+		if (possible_moves.isEmpty()){
+			if (color == client_color){
+				return -9999;
+			}
+			else{
+				return 9999 - current_depth*5;
+			}
+		}
 		if (depth == current_depth){
 			//evaluate score for client color on this game
 			//update score var and continue
-			List<Move> possible_moves = allPossibleMoves(color, game);
 			for (Move m : possible_moves){
 				if (client_color == color){
 					//set max score, move
@@ -193,7 +202,6 @@ public class Game {
 			}
 		}
 		else{
-			List<Move> possible_moves = allPossibleMoves(color, game);
 			for (Move m : possible_moves){
 				if (client_color == color){
 					//set max score, move

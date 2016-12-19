@@ -1,4 +1,5 @@
 import static org.junit.Assert.*;
+
 import java.util.*;
 
 import org.junit.*;   // instead of  import org.junit.Test;
@@ -36,7 +37,7 @@ public class GameTest {
 	}
 	
 	@Test
-	public void testMinimaxBestMove(){
+	public void testMinimaxBestMovePawnTakesPawn(){
 		int id = 2;
 		Color c_turn = Color.White;
 		String board[][] = new String[][]
@@ -54,6 +55,43 @@ public class GameTest {
 		assertEquals(4, bestMove.to[1]);
 		assertEquals(4, bestMove.from[0]);
 		assertEquals(3, bestMove.from[1]);
+	}
+	
+	@Test
+	public void testMinimaxBestMovePawnBecomesQueen(){
+		int id = 2;
+		Color c_turn = Color.White;
+		String board[][] = new String[][]
+				 {{"" , "", "",  "", "K", "", "", ""},
+				  {"" , "", "",  "", "", "", "", ""},
+				  {"" , "", "",  "", "", "", "P", ""},
+				  {"" , "", "",  "","p", "", "", ""},
+				  {"" , "", "", "", "", "", "", ""},
+				  {"" , "", "",  "P", "", "", "", ""},
+				  {"" , "", "",  "", "", "", "", ""},
+				  {"" , "", "",  "", "k", "", "", ""}};
+		Game game = new Game(id, board, c_turn, Color.White);
+		Move bestMove = game.minimaxBestMove(2);
+		assertEquals(1, bestMove.to[0]);
+		assertEquals(6, bestMove.to[1]);
+		assertEquals(2, bestMove.from[0]);
+		assertEquals(6, bestMove.from[1]);
+		
+		board = new String[][]
+				 {{"" , "", "",  "", "K", "", "", ""},
+				  {"" , "", "",  "", "", "", "P", ""},
+				  {"" , "", "",  "", "", "", "", ""},
+				  {"" , "", "",  "","p", "", "", ""},
+				  {"" , "", "",  "", "", "", "", ""},
+				  {"" , "", "",  "P", "", "", "", ""},
+				  {"" , "", "",  "", "", "", "", ""},
+				  {"" , "", "",  "", "k", "", "", ""}};
+		game = new Game(id, board, c_turn, Color.White);
+		bestMove = game.minimaxBestMove(2);
+		assertEquals(0, bestMove.to[0]);
+		assertEquals(6, bestMove.to[1]);
+		assertEquals(1, bestMove.from[0]);
+		assertEquals(6, bestMove.from[1]);
 	}
 
 	@Test
@@ -77,6 +115,47 @@ public class GameTest {
 		Game game = new Game(id, board, c_turn, Color.White);
 		List<Move> possible_moves = game.allPossibleMoves(Color.White, game);
 		assertEquals(2, possible_moves.size());
+	}
+	
+	@Test
+	public void testBestMovesBlackCheckMateNextMove(){
+		int id = 2;
+		Color c_turn = Color.Black;
+		String board[][] = new String[][]
+							 {{"" , "","K",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "","r", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "","r", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "k", "", "", ""}};
+		Game game = new Game(id, board, c_turn, Color.Black);
+		List<Move> possible_moves = game.allPossibleMoves(c_turn, game);
+		assertFalse(possible_moves.isEmpty());
+		Move bestMove = game.minimaxBestMove(2);
+		assertEquals(5, bestMove.from[0]);
+		assertEquals(4, bestMove.from[1]);
+		assertEquals(0, bestMove.to[0]);
+		assertEquals(4, bestMove.to[1]);
+	}
+	
+	@Test
+	public void testPawnOutOfBoundsExceptionBug(){
+		int id = 2;
+		Color c_turn = Color.Black;
+		String board[][] = new String[][]
+							 {{"" , "", "",  "", "", "", "", ""},
+							  {"" , "","k",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "","K",  "", "", "", "", ""},
+							  {"" ,"p", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""}};
+		Game game = new Game(id, board, c_turn, Color.Black);
+		Move bestMove = game.minimaxBestMove(2);
+		assert(true);
 	}
 
 	@Test

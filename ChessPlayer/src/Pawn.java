@@ -96,7 +96,24 @@ public class Pawn extends Piece {
 
 	public Game makeMoveSpecificDetails(Move move, Game ng){
 		ng.board[move.to[0]][move.to[1]] = (color == Color.White ? "P" : "p");
-		
+		if (move.to[0] == (color == Color.White ? 0 : 7)){
+			for (Iterator<Piece> iterator = (color == Color.White ? ng.white_pieces.iterator() : ng.black_pieces.iterator()); iterator.hasNext();){
+				Piece p = iterator.next();
+				if (p.position[0] == move.to[0] && p.position[1] == move.to[1]){
+					iterator.remove();
+					PieceFactory pf = new PieceFactory();
+					String queen_char = (color == Color.White ? "Q" : "q");
+					Piece newQueen = pf.createPiece(queen_char, new int[]{p.position[0], p.position[1]});
+					if (color == Color.White){
+						ng.white_pieces.add(newQueen);
+					}else{
+						ng.black_pieces.add(newQueen);
+					}
+					ng.board[p.position[0]][p.position[1]] = queen_char;
+					break;
+				}
+			}
+		}
 		if (Math.abs(move.to[0] - move.from[0]) == 1){
 			ng.en_passant[0] = -1;
 			ng.en_passant[1] = -1;
