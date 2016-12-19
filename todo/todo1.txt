@@ -1,0 +1,10 @@
+todo:
+
+- alpha/beta pruning
+- evaluation function:
+	- prioritize moves checking pieces... and prioritizes checking higher point pieces
+	- prioritize amount of possible moves by each piece...
+	- prioritize center of the board...
+- castling
+(and tests)
+- test en_passants

@@ -1,5 +1,6 @@
 
 public class Utility {
+	static int debugging_moves = 0; 
 	public static void printBoard(String[][] board){
 		for (int i = 0; i < 40; i++){
 			System.out.print("=");

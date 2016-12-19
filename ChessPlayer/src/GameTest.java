@@ -164,5 +164,23 @@ public class GameTest {
 		assertEquals(Color.Black, this.game.colorOfPieceInCell(1,3));
 		assertEquals(Color.NoColor, this.game.colorOfPieceInCell(4,3));
 	}
+	
+	@Test
+	public void testCheckMateCrashesClientBug(){
+		int id = 2;
+		Color c_turn = Color.White;
+		String board[][] = new String[][]
+							 {{"" , "", "",  "", "", "", "", ""},
+							  {"" ,"n", "",  "", "", "", "", ""},
+							  {"" , "","R",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "","p", "k","p", "", "", ""},
+							  {"K","r","n",  "", "","p", "", ""},
+							  {"" , "", "",  "", "", "", "", ""},
+							  {"" , "", "",  "", "", "", "", ""}};
+		Game game = new Game(id, board, c_turn, Color.White);
+		assertNull(game.minimaxBestMove(2));
+		assert(true);
+	}
 
 }

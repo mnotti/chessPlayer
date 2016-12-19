@@ -86,7 +86,10 @@ public class GameManager {
 			long duration = (endTime - startTime)/1000000;  //divide by 1000000 to get milliseconds.
 			this.total_move_time += duration;
 			this.total_moves += 1;
+			System.out.println("N_Moves calculated: " + Utility.debugging_moves);
+			System.out.println("Current Move Time: " + duration);
 			System.out.println("Current Move Average: " + this.total_move_time/this.total_moves);
+			Utility.debugging_moves = 0;
 			
 			if (move != null){
 				sendMove(move);	

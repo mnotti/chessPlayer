@@ -130,7 +130,9 @@ public class Game {
 			//System.out.println("EXAMINING FOLLOWING BOARD IN BEST MOVE");
 			//Utility.printBoard(ng.board);
 			System.out.println("Move from: [" + m.from[0] + "," + m.from[1] + "], to: [" + m.to[0] + "," + m.to[1] + "]");
-			int local_score = minimaxMoveScore(depth, 0, ng);
+			int alpha = Integer.MIN_VALUE;
+			int beta = Integer.MAX_VALUE;
+			int local_score = minimaxMoveScore(depth, 0, ng, alpha, beta);
 			System.out.println("Score for move: " + local_score);
 			if (current_best_move_set == false || local_score > current_best_score){
 				current_best_score = local_score;
@@ -141,14 +143,19 @@ public class Game {
 				best_moves.add(m);
 			}
 		}
-		//System.out.println("after loop");
-		//randomize equally scored...
-		int randomNum = (int)(Math.random() * best_moves.size()); 
-		Move best_move = best_moves.get(randomNum);
-		return best_move;
+		if (!best_moves.isEmpty()){
+			//if there are possible moves...
+			//randomize equally scored...
+			int randomNum = (int)(Math.random() * best_moves.size()); 
+			Move best_move = best_moves.get(randomNum);
+			return best_move;
+		}else{
+			//if no moves...
+			return null;
+		}
 	}
 	
-	public int minimaxMoveScore(int depth, int current_depth, Game game){
+	public int minimaxMoveScore(int depth, int current_depth, Game game, int alpha, int beta){
 		int current_best_score = 0;
 		Boolean current_best_score_set = false;
 		
@@ -175,12 +182,18 @@ public class Game {
 			//evaluate score for client color on this game
 			//update score var and continue
 			for (Move m : possible_moves){
+				if (alpha >= beta){
+					break;
+				}
 				if (client_color == color){
 					//set max score, move
 					Game ng = game.makeMove(m, color);
 					//System.out.println("EVALUATING FOLLOWING BOARD IN SCORE (bottom level)...client color => max");
 					//Utility.printBoard(ng.board);
 					int local_score = evaluate(ng);
+					if (local_score > alpha){
+						alpha = local_score;
+					}
 					//System.out.println("Score is: " + local_score);
 					if (local_score > current_best_score || current_best_score_set == false){
 						current_best_score = local_score;
@@ -193,6 +206,9 @@ public class Game {
 					//System.out.println("EVALUATING FOLLOWING BOARD IN SCORE (bottom level)...opp color => min");
 					//Utility.printBoard(ng.board);
 					int local_score = evaluate(ng);
+					if (local_score < beta){
+						beta = local_score;
+					}
 					if (local_score < current_best_score || current_best_score_set == false){
 						current_best_score = local_score;
 						current_best_score_set = true;
@@ -203,12 +219,18 @@ public class Game {
 		}
 		else{
 			for (Move m : possible_moves){
+				if (alpha >= beta){
+					break;
+				}
 				if (client_color == color){
 					//set max score, move
 					Game ng = game.makeMove(m, color);
 					//System.out.println("made client move to get FOLLOWING BOARD IN SCORE...diving to depth: " + current_depth + 1);
 					//Utility.printBoard(ng.board);
-					int local_score = minimaxMoveScore(depth, current_depth + 1, ng);
+					int local_score = minimaxMoveScore(depth, current_depth + 1, ng, alpha, beta);
+					if (local_score > alpha){
+						alpha = local_score;
+					}
 					if (local_score > current_best_score || current_best_score_set == false){
 						current_best_score = local_score;
 						current_best_score_set = true;
@@ -218,7 +240,10 @@ public class Game {
 					Game ng = game.makeMove(m, color);
 					//System.out.println("made opp move to get FOLLOWING BOARD IN SCORE...diving to depth: " + current_depth + 1);					Utility.printBoard(ng.board);
 					//Utility.printBoard(ng.board);
-					int local_score = minimaxMoveScore(depth, current_depth + 1, ng);
+					int local_score = minimaxMoveScore(depth, current_depth + 1, ng, alpha, beta);
+					if (local_score < beta){
+						beta = local_score;
+					}
 					if (local_score < current_best_score || current_best_score_set == false){
 						current_best_score = local_score;
 						current_best_score_set = true;
@@ -308,6 +333,7 @@ public class Game {
 	}
 	
 	public Game makeMove(Move move, Color color){
+		Utility.debugging_moves++;
 		Game ng = new Game(this);
 		Piece piece_moved;
 		for (Piece p : (color == Color.White ? ng.white_pieces : ng.black_pieces)){

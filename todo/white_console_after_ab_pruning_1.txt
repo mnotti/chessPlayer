@@ -1,0 +1,5163 @@
+MacBook-Pro-6:bin markusnotti$ java -cp .:../lib/json-20160810\ \(1\).jar ChessPlayer http://localhost:3000 create
+Attempting to create game...
+Starting to play game...
+r	n	b	k	q	b	n	r
+p	p	p	p	p	p	p	p
+							
+							
+							
+							
+P	P	P	P	P	P	P	P
+R	N	B	K	Q	B	N	R
+Move from: [6,0], to: [5,0]
+Score for move: 0
+Move from: [6,0], to: [4,0]
+Score for move: 0
+Move from: [6,1], to: [5,1]
+Score for move: 0
+Move from: [6,1], to: [4,1]
+Score for move: 0
+Move from: [6,2], to: [5,2]
+Score for move: 0
+Move from: [6,2], to: [4,2]
+Score for move: 0
+Move from: [6,3], to: [5,3]
+Score for move: 0
+Move from: [6,3], to: [4,3]
+Score for move: 0
+Move from: [6,4], to: [5,4]
+Score for move: 0
+Move from: [6,4], to: [4,4]
+Score for move: 0
+Move from: [6,5], to: [5,5]
+Score for move: 0
+Move from: [6,5], to: [4,5]
+Score for move: 0
+Move from: [6,6], to: [5,6]
+Score for move: 0
+Move from: [6,6], to: [4,6]
+Score for move: 0
+Move from: [6,7], to: [5,7]
+Score for move: 0
+Move from: [6,7], to: [4,7]
+Score for move: 0
+Move from: [7,1], to: [5,2]
+Score for move: 0
+Move from: [7,1], to: [5,0]
+Score for move: 0
+Move from: [7,6], to: [5,7]
+Score for move: 0
+Move from: [7,6], to: [5,5]
+Score for move: 0
+N_Moves calculated: 11873
+Current Move Time: 2410
+Current Move Average: 2410
+Sending Move from: [6,4], to: [5,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	b	k	q	b	n	r
+p	p	p		p	p	p	p
+							
+			p				
+							
+				P			
+P	P	P	P		P	P	P
+R	N	B	K	Q	B	N	R
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [6,0], to: [5,0]
+Score for move: -1
+Move from: [6,0], to: [4,0]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,2], to: [5,2]
+Score for move: -1
+Move from: [6,2], to: [4,2]
+Score for move: -1
+Move from: [6,3], to: [5,3]
+Score for move: -1
+Move from: [6,3], to: [4,3]
+Score for move: -1
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,1], to: [5,2]
+Score for move: -1
+Move from: [7,1], to: [5,0]
+Score for move: -1
+Move from: [7,3], to: [6,4]
+Score for move: -1
+Move from: [7,4], to: [6,4]
+Score for move: -1
+Move from: [7,5], to: [6,4]
+Score for move: -1
+Move from: [7,5], to: [5,3]
+Score for move: -1
+Move from: [7,5], to: [4,2]
+Score for move: -3
+Move from: [7,5], to: [3,1]
+Score for move: -4
+Move from: [7,5], to: [2,0]
+Score for move: -3
+Move from: [7,6], to: [6,4]
+Score for move: -1
+Move from: [7,6], to: [5,7]
+Score for move: -3
+Move from: [7,6], to: [5,5]
+Score for move: -3
+N_Moves calculated: 58524
+Current Move Time: 10807
+Current Move Average: 6608
+Sending Move from: [7,6], to: [6,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n		k	q	b	n	r
+p	p	p		p	p	p	p
+							
+			p				
+						b	
+				P			
+P	P	P	P	N	P	P	P
+R	N	B	K	Q	B		R
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,0], to: [5,0]
+Score for move: -3
+Move from: [6,0], to: [4,0]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -3
+Move from: [6,1], to: [4,1]
+Score for move: -3
+Move from: [6,2], to: [5,2]
+Score for move: -3
+Move from: [6,2], to: [4,2]
+Score for move: -3
+Move from: [6,3], to: [5,3]
+Score for move: -1
+Move from: [6,3], to: [4,3]
+Score for move: -3
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -3
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -3
+Move from: [7,1], to: [5,2]
+Score for move: -2
+Move from: [7,1], to: [5,0]
+Score for move: -3
+Move from: [7,7], to: [7,6]
+Score for move: -3
+N_Moves calculated: 78209
+Current Move Time: 15216
+Current Move Average: 9477
+Sending Move from: [6,3], to: [5,3]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n		k	q	b	n	r
+	p	p		p	p	p	p
+p							
+			p				
+						b	
+			P	P			
+P	P	P		N	P	P	P
+R	N	B	K	Q	B		R
+Move from: [5,3], to: [4,3]
+Score for move: -3
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,0], to: [5,0]
+Score for move: -1
+Move from: [6,0], to: [4,0]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,2], to: [5,2]
+Score for move: -3
+Move from: [6,2], to: [4,2]
+Score for move: -3
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -3
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,1], to: [6,3]
+Score for move: -1
+Move from: [7,1], to: [5,2]
+Score for move: -2
+Move from: [7,1], to: [5,0]
+Score for move: -3
+Move from: [7,2], to: [6,3]
+Score for move: -1
+Move from: [7,3], to: [6,3]
+Score for move: -1
+Move from: [7,4], to: [6,3]
+Score for move: -1
+Move from: [7,4], to: [5,2]
+Score for move: -1
+Move from: [7,4], to: [4,1]
+Score for move: -1
+Move from: [7,4], to: [3,0]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 180613
+Current Move Time: 36149
+Current Move Average: 16145
+Sending Move from: [7,1], to: [6,3]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n		k	q	b	n	r
+	p	p		p	p	p	p
+p							
+			p				b
+							
+			P	P			
+P	P	P	N	N	P	P	P
+R		B	K	Q	B		R
+Move from: [5,3], to: [4,3]
+Score for move: -3
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,0], to: [5,0]
+Score for move: -1
+Move from: [6,0], to: [4,0]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,2], to: [5,2]
+Score for move: -3
+Move from: [6,2], to: [4,2]
+Score for move: -3
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,5]
+Score for move: -3
+Move from: [6,3], to: [5,1]
+Score for move: -3
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 157563
+Current Move Time: 32290
+Current Move Average: 19374
+Sending Move from: [6,0], to: [5,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b	n	r
+	p	p		p	p	p	p
+p							
+			p				b
+							
+P			P	P			
+	P	P	N	N	P	P	P
+R		B	K	Q	B		R
+Move from: [5,0], to: [4,0]
+Score for move: -1
+Move from: [5,3], to: [4,3]
+Score for move: -3
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,2], to: [5,2]
+Score for move: -3
+Move from: [6,2], to: [4,2]
+Score for move: -3
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,5]
+Score for move: -3
+Move from: [6,3], to: [5,1]
+Score for move: -3
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 158485
+Current Move Time: 32095
+Current Move Average: 21494
+Sending Move from: [5,0], to: [4,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p		p	p	p	p
+p							n
+			p				b
+P							
+			P	P			
+	P	P	N	N	P	P	P
+R		B	K	Q	B		R
+Move from: [4,0], to: [3,0]
+Score for move: -1
+Move from: [5,3], to: [4,3]
+Score for move: -1
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,2], to: [5,2]
+Score for move: -1
+Move from: [6,2], to: [4,2]
+Score for move: -2
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,5]
+Score for move: -3
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -2
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -3
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 188810
+Current Move Time: 37183
+Current Move Average: 23735
+Sending Move from: [6,2], to: [5,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p		p		p	p
+p					p		n
+			p				b
+P							
+		P	P	P			
+	P		N	N	P	P	P
+R		B	K	Q	B		R
+Move from: [4,0], to: [3,0]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,3], to: [4,3]
+Score for move: -1
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,5]
+Score for move: -3
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,5], to: [5,5]
+Score for move: -1
+Move from: [6,5], to: [4,5]
+Score for move: -3
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -4
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -3
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 192569
+Current Move Time: 35958
+Current Move Average: 25263
+Sending Move from: [6,5], to: [5,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p		p	b	p	p
+p					p		n
+			p				
+P							
+		P	P	P	P		
+	P		N	N		P	P
+R		B	K	Q	B		R
+Move from: [4,0], to: [3,0]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -1
+Move from: [5,3], to: [4,3]
+Score for move: -1
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -1
+Move from: [6,4], to: [4,3]
+Score for move: -1
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -2
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,4], to: [6,5]
+Score for move: -1
+Move from: [7,4], to: [5,6]
+Score for move: -1
+Move from: [7,4], to: [4,7]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 55148
+Current Move Time: 10798
+Current Move Average: 23656
+Sending Move from: [5,3], to: [4,3]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p			b	p	p
+p					p		n
+			p	p			
+P			P				
+		P		P	P		
+	P		N	N		P	P
+R		B	K	Q	B		R
+Move from: [4,0], to: [3,0]
+Score for move: -1
+Move from: [4,3], to: [3,4]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -4
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -2
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -5
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,4], to: [6,5]
+Score for move: -1
+Move from: [7,4], to: [5,6]
+Score for move: -1
+Move from: [7,4], to: [4,7]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 80447
+Current Move Time: 16083
+Current Move Average: 22898
+Sending Move from: [4,0], to: [3,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p			b	p	p
+p					p		
+P			p	p	n		
+			P				
+		P		P	P		
+	P		N	N		P	P
+R		B	K	Q	B		R
+Move from: [4,3], to: [3,4]
+Score for move: -9999
+Move from: [5,2], to: [4,2]
+Score for move: -9999
+Move from: [5,4], to: [4,4]
+Score for move: -9999
+Move from: [5,5], to: [4,5]
+Score for move: -9999
+Move from: [6,1], to: [5,1]
+Score for move: -9999
+Move from: [6,1], to: [4,1]
+Score for move: -9999
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -2
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -4
+Move from: [6,6], to: [5,6]
+Score for move: -9999
+Move from: [6,6], to: [4,6]
+Score for move: -9999
+Move from: [6,7], to: [5,7]
+Score for move: -9999
+Move from: [6,7], to: [4,7]
+Score for move: -9999
+Move from: [7,0], to: [7,1]
+Score for move: -9999
+Move from: [7,0], to: [6,0]
+Score for move: -9999
+Move from: [7,0], to: [5,0]
+Score for move: -9999
+Move from: [7,0], to: [4,0]
+Score for move: -9999
+Move from: [7,3], to: [6,2]
+Score for move: -4
+Move from: [7,4], to: [6,5]
+Score for move: -1
+Move from: [7,4], to: [5,6]
+Score for move: -6
+Move from: [7,4], to: [4,7]
+Score for move: -8
+Move from: [7,7], to: [7,6]
+Score for move: -9999
+N_Moves calculated: 201290
+Current Move Time: 39557
+Current Move Average: 24413
+Sending Move from: [7,4], to: [6,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p			b	p	
+p					p		
+P			p	p	n		p
+			P				
+		P		P	P		
+	P		N	N	Q	P	P
+R		B	K		B		R
+Move from: [4,3], to: [3,4]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -1
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -1
+Move from: [6,1], to: [5,1]
+Score for move: -1
+Move from: [6,1], to: [4,1]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -2
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -3
+Move from: [6,5], to: [5,6]
+Score for move: -6
+Move from: [6,5], to: [4,7]
+Score for move: -8
+Move from: [6,5], to: [7,4]
+Score for move: -9999
+Move from: [6,5], to: [7,6]
+Score for move: -1
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -3
+Move from: [7,0], to: [4,0]
+Score for move: -6
+Move from: [7,3], to: [7,4]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 115464
+Current Move Time: 23871
+Current Move Average: 24368
+Sending Move from: [6,1], to: [4,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p				p	
+p				b	p		
+P			p	p	n		p
+	P		P				
+		P		P	P		
+			N	N	Q	P	P
+R		B	K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -2
+Move from: [4,3], to: [3,4]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -3
+Move from: [6,5], to: [5,6]
+Score for move: -6
+Move from: [6,5], to: [4,7]
+Score for move: -8
+Move from: [6,5], to: [7,4]
+Score for move: -9999
+Move from: [6,5], to: [7,6]
+Score for move: -1
+Move from: [6,6], to: [5,6]
+Score for move: -1
+Move from: [6,6], to: [4,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -1
+Move from: [7,0], to: [4,0]
+Score for move: -6
+Move from: [7,2], to: [6,1]
+Score for move: -1
+Move from: [7,2], to: [5,0]
+Score for move: -3
+Move from: [7,3], to: [7,4]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 116489
+Current Move Time: 24605
+Current Move Average: 24386
+Sending Move from: [6,6], to: [4,6]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p				p	
+p				b	p		n
+P			p	p			p
+	P		P			P	
+		P		P	P		
+			N	N	Q		P
+R		B	K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -2
+Move from: [4,3], to: [3,4]
+Score for move: 0
+Move from: [4,6], to: [3,7]
+Score for move: 0
+Move from: [4,6], to: [3,6]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -3
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -3
+Move from: [6,5], to: [5,6]
+Score for move: -1
+Move from: [6,5], to: [4,7]
+Score for move: -1
+Move from: [6,5], to: [7,4]
+Score for move: -1
+Move from: [6,5], to: [7,6]
+Score for move: -1
+Move from: [6,5], to: [6,6]
+Score for move: -1
+Move from: [6,7], to: [5,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -1
+Move from: [7,0], to: [4,0]
+Score for move: -6
+Move from: [7,2], to: [6,1]
+Score for move: -1
+Move from: [7,2], to: [5,0]
+Score for move: -3
+Move from: [7,3], to: [7,4]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,5], to: [6,6]
+Score for move: -1
+Move from: [7,5], to: [5,7]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 102026
+Current Move Time: 22791
+Current Move Average: 24272
+Sending Move from: [4,3], to: [3,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q	b		r
+	p	p				p	
+p				b			n
+P			p	p			p
+	P					P	
+		P		P	P		
+			N	N	Q		P
+R		B	K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -2
+Move from: [4,6], to: [3,7]
+Score for move: -1
+Move from: [4,6], to: [3,6]
+Score for move: -1
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -3
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -1
+Move from: [6,4], to: [4,5]
+Score for move: -3
+Move from: [6,4], to: [4,3]
+Score for move: -3
+Move from: [6,5], to: [5,6]
+Score for move: -1
+Move from: [6,5], to: [4,7]
+Score for move: -1
+Move from: [6,5], to: [7,4]
+Score for move: -1
+Move from: [6,5], to: [7,6]
+Score for move: -1
+Move from: [6,5], to: [6,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -1
+Move from: [7,0], to: [4,0]
+Score for move: -6
+Move from: [7,2], to: [6,1]
+Score for move: -1
+Move from: [7,2], to: [5,0]
+Score for move: -3
+Move from: [7,3], to: [7,4]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,5], to: [6,6]
+Score for move: -1
+Move from: [7,5], to: [5,7]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 99448
+Current Move Time: 21742
+Current Move Average: 24103
+Sending Move from: [7,2], to: [6,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p		b		p	
+p				b			n
+P			p	p			p
+	P					P	
+		P		P	P		
+	B		N	N	Q		P
+R			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -3
+Move from: [4,6], to: [3,7]
+Score for move: -1
+Move from: [4,6], to: [3,6]
+Score for move: -2
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -1
+Move from: [5,5], to: [4,5]
+Score for move: -3
+Move from: [6,1], to: [5,0]
+Score for move: -3
+Move from: [6,1], to: [7,2]
+Score for move: -1
+Move from: [6,3], to: [7,1]
+Score for move: -1
+Move from: [6,3], to: [5,1]
+Score for move: -1
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -3
+Move from: [6,4], to: [7,6]
+Score for move: -1
+Move from: [6,4], to: [7,2]
+Score for move: -1
+Move from: [6,4], to: [5,6]
+Score for move: -2
+Move from: [6,4], to: [4,5]
+Score for move: -3
+Move from: [6,4], to: [4,3]
+Score for move: -3
+Move from: [6,5], to: [5,6]
+Score for move: -1
+Move from: [6,5], to: [4,7]
+Score for move: -8
+Move from: [6,5], to: [7,4]
+Score for move: -1
+Move from: [6,5], to: [7,6]
+Score for move: -1
+Move from: [6,5], to: [6,6]
+Score for move: -1
+Move from: [6,7], to: [5,7]
+Score for move: -1
+Move from: [6,7], to: [4,7]
+Score for move: -1
+Move from: [7,0], to: [7,1]
+Score for move: -1
+Move from: [7,0], to: [7,2]
+Score for move: -1
+Move from: [7,0], to: [6,0]
+Score for move: -1
+Move from: [7,0], to: [5,0]
+Score for move: -1
+Move from: [7,0], to: [4,0]
+Score for move: -6
+Move from: [7,3], to: [7,4]
+Score for move: -1
+Move from: [7,3], to: [7,2]
+Score for move: -1
+Move from: [7,3], to: [6,2]
+Score for move: -1
+Move from: [7,5], to: [6,6]
+Score for move: -1
+Move from: [7,5], to: [5,7]
+Score for move: -1
+Move from: [7,7], to: [7,6]
+Score for move: -1
+N_Moves calculated: 171095
+Current Move Time: 39539
+Current Move Average: 25068
+Sending Move from: [6,7], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p		b		p	
+p				b			n
+P			p	p			
+	P					p	P
+		P		P	P		
+	B		N	N	Q		
+R			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -4
+Move from: [4,7], to: [3,7]
+Score for move: -2
+Move from: [5,2], to: [4,2]
+Score for move: -3
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [5,5], to: [4,6]
+Score for move: -4
+Move from: [5,5], to: [4,5]
+Score for move: -2
+Move from: [6,1], to: [5,0]
+Score for move: -4
+Move from: [6,1], to: [7,2]
+Score for move: -2
+Move from: [6,3], to: [7,1]
+Score for move: -2
+Move from: [6,3], to: [5,1]
+Score for move: -2
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,4], to: [7,6]
+Score for move: -2
+Move from: [6,4], to: [7,2]
+Score for move: -2
+Move from: [6,4], to: [5,6]
+Score for move: -2
+Move from: [6,4], to: [4,5]
+Score for move: -4
+Move from: [6,4], to: [4,3]
+Score for move: -4
+Move from: [6,5], to: [5,6]
+Score for move: -2
+Move from: [6,5], to: [7,4]
+Score for move: -2
+Move from: [6,5], to: [7,6]
+Score for move: -2
+Move from: [6,5], to: [6,6]
+Score for move: -2
+Move from: [6,5], to: [6,7]
+Score for move: -2
+Move from: [7,0], to: [7,1]
+Score for move: -2
+Move from: [7,0], to: [7,2]
+Score for move: -2
+Move from: [7,0], to: [6,0]
+Score for move: -2
+Move from: [7,0], to: [5,0]
+Score for move: -2
+Move from: [7,0], to: [4,0]
+Score for move: -7
+Move from: [7,3], to: [7,4]
+Score for move: -2
+Move from: [7,3], to: [7,2]
+Score for move: -2
+Move from: [7,3], to: [6,2]
+Score for move: -2
+Move from: [7,5], to: [6,6]
+Score for move: -2
+Move from: [7,5], to: [5,7]
+Score for move: -5
+Move from: [7,7], to: [7,6]
+Score for move: -2
+Move from: [7,7], to: [6,7]
+Score for move: -2
+Move from: [7,7], to: [5,7]
+Score for move: -7
+N_Moves calculated: 210884
+Current Move Time: 49683
+Current Move Average: 26516
+Sending Move from: [6,5], to: [6,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p				p	
+p				b	b		n
+P			p	p			
+	P					p	P
+		P		P	P		
+	B		N	N			Q
+R			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -4
+Move from: [4,7], to: [3,7]
+Score for move: -2
+Move from: [5,2], to: [4,2]
+Score for move: -2
+Move from: [5,4], to: [4,4]
+Score for move: -2
+Move from: [5,5], to: [4,6]
+Score for move: -4
+Move from: [5,5], to: [4,5]
+Score for move: -2
+Move from: [6,1], to: [5,0]
+Score for move: -4
+Move from: [6,1], to: [7,2]
+Score for move: -2
+Move from: [6,3], to: [7,1]
+Score for move: -3
+Move from: [6,3], to: [5,1]
+Score for move: -3
+Move from: [6,3], to: [4,4]
+Score for move: -4
+Move from: [6,3], to: [4,2]
+Score for move: -4
+Move from: [6,4], to: [7,6]
+Score for move: -2
+Move from: [6,4], to: [7,2]
+Score for move: -2
+Move from: [6,4], to: [5,6]
+Score for move: -2
+Move from: [6,4], to: [4,5]
+Score for move: -4
+Move from: [6,4], to: [4,3]
+Score for move: -4
+Move from: [6,7], to: [5,6]
+Score for move: -2
+Move from: [6,7], to: [4,5]
+Score for move: -9
+Move from: [6,7], to: [3,4]
+Score for move: -8
+Move from: [6,7], to: [7,6]
+Score for move: -2
+Move from: [6,7], to: [6,6]
+Score for move: -2
+Move from: [6,7], to: [6,5]
+Score for move: -2
+Move from: [6,7], to: [5,7]
+Score for move: -10
+Move from: [7,0], to: [7,1]
+Score for move: -2
+Move from: [7,0], to: [7,2]
+Score for move: -2
+Move from: [7,0], to: [6,0]
+Score for move: -2
+Move from: [7,0], to: [5,0]
+Score for move: -2
+Move from: [7,0], to: [4,0]
+Score for move: -7
+Move from: [7,3], to: [7,4]
+Score for move: -2
+Move from: [7,3], to: [7,2]
+Score for move: -2
+Move from: [7,3], to: [6,2]
+Score for move: -2
+Move from: [7,5], to: [6,6]
+Score for move: -2
+Move from: [7,5], to: [5,7]
+Score for move: -5
+Move from: [7,7], to: [7,6]
+Score for move: -2
+N_Moves calculated: 198718
+Current Move Time: 45099
+Current Move Average: 27548
+Sending Move from: [7,0], to: [6,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p				p	
+p				b	b		n
+P				p			
+	P		p			p	P
+		P		P	P		
+R	B		N	N			Q
+			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,7], to: [3,7]
+Score for move: -6
+Move from: [5,2], to: [4,3]
+Score for move: -5
+Move from: [5,2], to: [4,2]
+Score for move: -3
+Move from: [5,4], to: [4,3]
+Score for move: -5
+Move from: [5,4], to: [4,4]
+Score for move: -6
+Move from: [5,5], to: [4,6]
+Score for move: -6
+Move from: [5,5], to: [4,5]
+Score for move: -6
+Move from: [6,0], to: [7,0]
+Score for move: -3
+Move from: [6,0], to: [5,0]
+Score for move: -3
+Move from: [6,0], to: [4,0]
+Score for move: -7
+Move from: [6,1], to: [5,0]
+Score for move: -6
+Move from: [6,1], to: [7,0]
+Score for move: -6
+Move from: [6,1], to: [7,2]
+Score for move: -6
+Move from: [6,3], to: [7,1]
+Score for move: -7
+Move from: [6,3], to: [5,1]
+Score for move: -9
+Move from: [6,3], to: [4,4]
+Score for move: -6
+Move from: [6,3], to: [4,2]
+Score for move: -7
+Move from: [6,4], to: [7,6]
+Score for move: -6
+Move from: [6,4], to: [7,2]
+Score for move: -5
+Move from: [6,4], to: [5,6]
+Score for move: -6
+Move from: [6,4], to: [4,5]
+Score for move: -7
+Move from: [6,4], to: [4,3]
+Score for move: -6
+Move from: [6,7], to: [5,6]
+Score for move: -6
+Move from: [6,7], to: [4,5]
+Score for move: -10
+Move from: [6,7], to: [3,4]
+Score for move: -9
+Move from: [6,7], to: [7,6]
+Score for move: -6
+Move from: [6,7], to: [6,6]
+Score for move: -6
+Move from: [6,7], to: [6,5]
+Score for move: -6
+Move from: [6,7], to: [5,7]
+Score for move: -10
+Move from: [7,3], to: [7,4]
+Score for move: -6
+Move from: [7,3], to: [7,2]
+Score for move: -6
+Move from: [7,3], to: [6,2]
+Score for move: -6
+Move from: [7,5], to: [6,6]
+Score for move: -6
+Move from: [7,5], to: [5,7]
+Score for move: -6
+Move from: [7,7], to: [7,6]
+Score for move: -6
+N_Moves calculated: 309694
+Current Move Time: 71788
+Current Move Average: 29877
+Sending Move from: [6,0], to: [5,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p				p	
+p				b	b		n
+P				p			
+	P					p	P
+R		P		p	P		
+	B		N	N			Q
+			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -5
+Move from: [4,7], to: [3,7]
+Score for move: -5
+Move from: [5,0], to: [5,1]
+Score for move: -7
+Move from: [5,0], to: [6,0]
+Score for move: -8
+Move from: [5,0], to: [7,0]
+Score for move: -5
+Move from: [5,0], to: [4,0]
+Score for move: -10
+Move from: [5,2], to: [4,2]
+Score for move: -5
+Move from: [5,5], to: [4,6]
+Score for move: -5
+Move from: [5,5], to: [4,5]
+Score for move: -5
+Move from: [6,1], to: [7,0]
+Score for move: -5
+Move from: [6,1], to: [7,2]
+Score for move: -5
+Move from: [6,3], to: [7,1]
+Score for move: -4
+Move from: [6,3], to: [5,1]
+Score for move: -6
+Move from: [6,3], to: [4,4]
+Score for move: -3
+Move from: [6,3], to: [4,2]
+Score for move: -7
+Move from: [6,4], to: [7,6]
+Score for move: -5
+Move from: [6,4], to: [7,2]
+Score for move: -5
+Move from: [6,4], to: [5,6]
+Score for move: -5
+Move from: [6,4], to: [4,5]
+Score for move: -6
+Move from: [6,4], to: [4,3]
+Score for move: -6
+Move from: [6,7], to: [5,6]
+Score for move: -5
+Move from: [6,7], to: [4,5]
+Score for move: -11
+Move from: [6,7], to: [3,4]
+Score for move: -10
+Move from: [6,7], to: [7,6]
+Score for move: -5
+Move from: [6,7], to: [6,6]
+Score for move: -5
+Move from: [6,7], to: [6,5]
+Score for move: -10
+Move from: [6,7], to: [5,7]
+Score for move: -11
+Move from: [7,3], to: [7,4]
+Score for move: -5
+Move from: [7,3], to: [7,2]
+Score for move: -5
+Move from: [7,3], to: [6,2]
+Score for move: -5
+Move from: [7,5], to: [6,6]
+Score for move: -5
+Move from: [7,5], to: [5,7]
+Score for move: -6
+Move from: [7,7], to: [7,6]
+Score for move: -5
+N_Moves calculated: 345019
+Current Move Time: 76016
+Current Move Average: 32184
+Sending Move from: [6,3], to: [4,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p				p	
+p				b	b		n
+P				p			
+	P			N			P
+R		P		p	p		
+	B			N			Q
+			K		B		R
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,4], to: [5,6]
+Score for move: -6
+Move from: [4,4], to: [6,5]
+Score for move: -8
+Move from: [4,4], to: [6,3]
+Score for move: -8
+Move from: [4,4], to: [3,6]
+Score for move: -8
+Move from: [4,4], to: [3,2]
+Score for move: -6
+Move from: [4,4], to: [2,5]
+Score for move: -5
+Move from: [4,4], to: [2,3]
+Score for move: -7
+Move from: [4,7], to: [3,7]
+Score for move: -6
+Move from: [5,0], to: [5,1]
+Score for move: -11
+Move from: [5,0], to: [6,0]
+Score for move: -10
+Move from: [5,0], to: [7,0]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -11
+Move from: [5,2], to: [4,2]
+Score for move: -6
+Move from: [6,1], to: [7,0]
+Score for move: -6
+Move from: [6,1], to: [7,2]
+Score for move: -6
+Move from: [6,4], to: [7,6]
+Score for move: -5
+Move from: [6,4], to: [7,2]
+Score for move: -5
+Move from: [6,4], to: [5,6]
+Score for move: -5
+Move from: [6,4], to: [4,5]
+Score for move: -6
+Move from: [6,4], to: [4,3]
+Score for move: -6
+Move from: [6,7], to: [5,6]
+Score for move: -6
+Move from: [6,7], to: [4,5]
+Score for move: -13
+Move from: [6,7], to: [3,4]
+Score for move: -12
+Move from: [6,7], to: [7,6]
+Score for move: -6
+Move from: [6,7], to: [6,6]
+Score for move: -11
+Move from: [6,7], to: [6,5]
+Score for move: -11
+Move from: [6,7], to: [5,7]
+Score for move: -13
+Move from: [7,3], to: [7,4]
+Score for move: -6
+Move from: [7,3], to: [7,2]
+Score for move: -6
+Move from: [7,3], to: [6,2]
+Score for move: -6
+Move from: [7,5], to: [6,6]
+Score for move: -6
+Move from: [7,5], to: [5,7]
+Score for move: -8
+Move from: [7,7], to: [7,6]
+Score for move: -6
+N_Moves calculated: 237644
+Current Move Time: 52011
+Current Move Average: 33128
+Sending Move from: [4,4], to: [2,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p				p	
+p				b	N		n
+P				p			
+	P						P
+R		P		p			
+	B			p			Q
+			K		B		R
+Move from: [6,7], to: [6,4]
+Score for move: -5
+Move from: [7,3], to: [7,4]
+Score for move: -8
+Move from: [7,3], to: [7,2]
+Score for move: -13
+Move from: [7,3], to: [6,4]
+Score for move: -5
+Move from: [7,3], to: [6,2]
+Score for move: -13
+Move from: [7,5], to: [6,4]
+Score for move: -5
+N_Moves calculated: 54743
+Current Move Time: 10246
+Current Move Average: 32088
+Sending Move from: [7,3], to: [6,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p					
+p				b	p		n
+P				p			
+	P						P
+R		P		p			
+	B			K			Q
+					B		R
+Move from: [4,1], to: [3,1]
+Score for move: -8
+Move from: [4,7], to: [3,7]
+Score for move: -7
+Move from: [5,0], to: [5,1]
+Score for move: -10
+Move from: [5,0], to: [6,0]
+Score for move: -10
+Move from: [5,0], to: [7,0]
+Score for move: -7
+Move from: [5,0], to: [4,0]
+Score for move: -10
+Move from: [5,2], to: [4,2]
+Score for move: -8
+Move from: [6,1], to: [7,0]
+Score for move: -7
+Move from: [6,1], to: [7,2]
+Score for move: -7
+Move from: [6,4], to: [7,4]
+Score for move: -6
+Move from: [6,4], to: [7,3]
+Score for move: -6
+Move from: [6,4], to: [5,4]
+Score for move: -12
+Move from: [6,4], to: [5,5]
+Score for move: -9
+Move from: [6,4], to: [5,3]
+Score for move: -6
+Move from: [6,7], to: [5,6]
+Score for move: -7
+Move from: [6,7], to: [4,5]
+Score for move: -13
+Move from: [6,7], to: [3,4]
+Score for move: -11
+Move from: [6,7], to: [7,6]
+Score for move: -7
+Move from: [6,7], to: [6,6]
+Score for move: -7
+Move from: [6,7], to: [6,5]
+Score for move: -12
+Move from: [6,7], to: [5,7]
+Score for move: -12
+Move from: [7,5], to: [6,6]
+Score for move: -6
+Move from: [7,5], to: [5,7]
+Score for move: -7
+Move from: [7,7], to: [7,6]
+Score for move: -7
+N_Moves calculated: 140951
+Current Move Time: 25673
+Current Move Average: 31809
+Sending Move from: [6,4], to: [7,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k		q			r
+	p	p					
+p				b	p		n
+P							
+	P			p			P
+R		P		p			
+	B						Q
+				K	B		R
+Move from: [4,1], to: [3,1]
+Score for move: -7
+Move from: [4,7], to: [3,7]
+Score for move: -6
+Move from: [5,0], to: [5,1]
+Score for move: -10
+Move from: [5,0], to: [6,0]
+Score for move: -10
+Move from: [5,0], to: [7,0]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -11
+Move from: [5,2], to: [4,2]
+Score for move: -6
+Move from: [6,1], to: [7,0]
+Score for move: -6
+Move from: [6,1], to: [7,2]
+Score for move: -6
+Move from: [6,7], to: [5,6]
+Score for move: -6
+Move from: [6,7], to: [4,5]
+Score for move: -5
+Move from: [6,7], to: [3,4]
+Score for move: -13
+Move from: [6,7], to: [2,3]
+Score for move: -13
+Move from: [6,7], to: [1,2]
+Score for move: -12
+Move from: [6,7], to: [7,6]
+Score for move: -6
+Move from: [6,7], to: [6,6]
+Score for move: -6
+Move from: [6,7], to: [6,5]
+Score for move: -12
+Move from: [6,7], to: [6,4]
+Score for move: -6
+Move from: [6,7], to: [6,3]
+Score for move: -12
+Move from: [6,7], to: [6,2]
+Score for move: -6
+Move from: [6,7], to: [5,7]
+Score for move: -10
+Move from: [7,4], to: [7,3]
+Score for move: -6
+Move from: [7,4], to: [6,4]
+Score for move: -7
+Move from: [7,5], to: [6,4]
+Score for move: -6
+Move from: [7,5], to: [5,3]
+Score for move: -8
+Move from: [7,5], to: [4,2]
+Score for move: -8
+Move from: [7,5], to: [3,1]
+Score for move: -9
+Move from: [7,5], to: [2,0]
+Score for move: -8
+Move from: [7,5], to: [6,6]
+Score for move: -6
+Move from: [7,5], to: [5,7]
+Score for move: -5
+Move from: [7,7], to: [7,6]
+Score for move: -6
+N_Moves calculated: 205656
+Current Move Time: 39821
+Current Move Average: 32142
+Sending Move from: [6,7], to: [4,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p	q				
+p				b	p		n
+P							
+	P			p	Q		P
+R		P		p			
+	B						
+				K	B		R
+Move from: [4,1], to: [3,1]
+Score for move: -9999
+Move from: [4,5], to: [3,4]
+Score for move: -9999
+Move from: [4,5], to: [2,3]
+Score for move: -14
+Move from: [4,5], to: [1,2]
+Score for move: -13
+Move from: [4,5], to: [3,6]
+Score for move: -9999
+Move from: [4,5], to: [2,7]
+Score for move: -9999
+Move from: [4,5], to: [5,4]
+Score for move: -5
+Move from: [4,5], to: [5,6]
+Score for move: -9999
+Move from: [4,5], to: [6,7]
+Score for move: -6
+Move from: [4,5], to: [4,6]
+Score for move: -9999
+Move from: [4,5], to: [4,4]
+Score for move: -9999
+Move from: [4,5], to: [5,5]
+Score for move: -9999
+Move from: [4,5], to: [6,5]
+Score for move: -12
+Move from: [4,5], to: [3,5]
+Score for move: -9999
+Move from: [4,5], to: [2,5]
+Score for move: -9999
+Move from: [4,7], to: [3,7]
+Score for move: -9999
+Move from: [5,0], to: [5,1]
+Score for move: -9999
+Move from: [5,0], to: [6,0]
+Score for move: -9999
+Move from: [5,0], to: [7,0]
+Score for move: -9999
+Move from: [5,0], to: [4,0]
+Score for move: -9999
+Move from: [5,2], to: [4,2]
+Score for move: -9999
+Move from: [6,1], to: [7,0]
+Score for move: -9999
+Move from: [6,1], to: [7,2]
+Score for move: -5
+Move from: [7,4], to: [6,4]
+Score for move: -9999
+Move from: [7,5], to: [6,4]
+Score for move: -8
+Move from: [7,5], to: [5,3]
+Score for move: -8
+Move from: [7,5], to: [4,2]
+Score for move: -8
+Move from: [7,5], to: [3,1]
+Score for move: -8
+Move from: [7,5], to: [2,0]
+Score for move: -7
+Move from: [7,5], to: [6,6]
+Score for move: -1004
+Move from: [7,5], to: [5,7]
+Score for move: -8
+Move from: [7,7], to: [7,6]
+Score for move: -9999
+Move from: [7,7], to: [6,7]
+Score for move: -6
+Move from: [7,7], to: [5,7]
+Score for move: -9999
+N_Moves calculated: 249095
+Current Move Time: 53430
+Current Move Average: 32994
+Sending Move from: [4,5], to: [5,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p					q
+p				b	p		n
+P							
+	P			p			P
+R		P		Q			
+	B						
+				K	B		R
+Move from: [4,1], to: [3,1]
+Score for move: -5
+Move from: [4,7], to: [3,7]
+Score for move: -5
+Move from: [5,0], to: [5,1]
+Score for move: -9
+Move from: [5,0], to: [6,0]
+Score for move: -9
+Move from: [5,0], to: [7,0]
+Score for move: -5
+Move from: [5,0], to: [4,0]
+Score for move: -5
+Move from: [5,2], to: [4,2]
+Score for move: -5
+Move from: [5,4], to: [4,3]
+Score for move: -5
+Move from: [5,4], to: [3,2]
+Score for move: -5
+Move from: [5,4], to: [2,1]
+Score for move: -11
+Move from: [5,4], to: [1,0]
+Score for move: -12
+Move from: [5,4], to: [4,5]
+Score for move: -5
+Move from: [5,4], to: [3,6]
+Score for move: -11
+Move from: [5,4], to: [2,7]
+Score for move: -10
+Move from: [5,4], to: [6,3]
+Score for move: -5
+Move from: [5,4], to: [7,2]
+Score for move: -5
+Move from: [5,4], to: [6,5]
+Score for move: -5
+Move from: [5,4], to: [7,6]
+Score for move: -5
+Move from: [5,4], to: [5,5]
+Score for move: -12
+Move from: [5,4], to: [5,6]
+Score for move: -5
+Move from: [5,4], to: [5,7]
+Score for move: -9
+Move from: [5,4], to: [5,3]
+Score for move: -12
+Move from: [5,4], to: [6,4]
+Score for move: -5
+Move from: [5,4], to: [4,4]
+Score for move: -16
+Move from: [6,1], to: [7,0]
+Score for move: -5
+Move from: [6,1], to: [7,2]
+Score for move: -5
+Move from: [7,4], to: [7,3]
+Score for move: -5
+Move from: [7,4], to: [6,4]
+Score for move: -7
+Move from: [7,4], to: [6,5]
+Score for move: -12
+Move from: [7,4], to: [6,3]
+Score for move: -5
+Move from: [7,5], to: [6,4]
+Score for move: -5
+Move from: [7,5], to: [5,3]
+Score for move: -7
+Move from: [7,5], to: [4,2]
+Score for move: -7
+Move from: [7,5], to: [3,1]
+Score for move: -8
+Move from: [7,5], to: [2,0]
+Score for move: -7
+Move from: [7,5], to: [6,6]
+Score for move: -5
+Move from: [7,5], to: [5,7]
+Score for move: -4
+Move from: [7,7], to: [7,6]
+Score for move: -5
+Move from: [7,7], to: [6,7]
+Score for move: -9
+Move from: [7,7], to: [5,7]
+Score for move: -7
+N_Moves calculated: 244124
+Current Move Time: 50705
+Current Move Average: 33675
+Sending Move from: [7,5], to: [5,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p					q
+p					p		n
+P							
+	P			p		b	P
+R		P		Q			B
+	B						
+				K			R
+Move from: [4,1], to: [3,1]
+Score for move: -5
+Move from: [4,7], to: [3,7]
+Score for move: -4
+Move from: [5,0], to: [5,1]
+Score for move: -4
+Move from: [5,0], to: [6,0]
+Score for move: -4
+Move from: [5,0], to: [7,0]
+Score for move: -4
+Move from: [5,0], to: [4,0]
+Score for move: -4
+Move from: [5,2], to: [4,2]
+Score for move: -4
+Move from: [5,4], to: [4,3]
+Score for move: -4
+Move from: [5,4], to: [3,2]
+Score for move: -4
+Move from: [5,4], to: [2,1]
+Score for move: -12
+Move from: [5,4], to: [1,0]
+Score for move: -12
+Move from: [5,4], to: [4,5]
+Score for move: -4
+Move from: [5,4], to: [3,6]
+Score for move: -12
+Move from: [5,4], to: [2,7]
+Score for move: -6
+Move from: [5,4], to: [6,3]
+Score for move: -4
+Move from: [5,4], to: [7,2]
+Score for move: -4
+Move from: [5,4], to: [6,5]
+Score for move: -4
+Move from: [5,4], to: [7,6]
+Score for move: -4
+Move from: [5,4], to: [5,5]
+Score for move: -12
+Move from: [5,4], to: [5,6]
+Score for move: -4
+Move from: [5,4], to: [5,3]
+Score for move: -12
+Move from: [5,4], to: [6,4]
+Score for move: -4
+Move from: [5,4], to: [4,4]
+Score for move: -16
+Move from: [5,7], to: [4,6]
+Score for move: -5
+Move from: [5,7], to: [6,6]
+Score for move: -5
+Move from: [5,7], to: [7,5]
+Score for move: -5
+Move from: [6,1], to: [7,0]
+Score for move: -4
+Move from: [6,1], to: [7,2]
+Score for move: -4
+Move from: [7,4], to: [7,5]
+Score for move: -7
+Move from: [7,4], to: [6,5]
+Score for move: -7
+Move from: [7,4], to: [6,3]
+Score for move: -7
+Move from: [7,7], to: [7,6]
+Score for move: -4
+Move from: [7,7], to: [7,5]
+Score for move: -4
+Move from: [7,7], to: [6,7]
+Score for move: -4
+N_Moves calculated: 333485
+Current Move Time: 66667
+Current Move Average: 34897
+Sending Move from: [5,4], to: [4,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p					q
+p					p		n
+P							
+	P			p	Q		P
+R		P					b
+	B						
+				K			R
+Move from: [4,1], to: [3,1]
+Score for move: -8
+Move from: [4,5], to: [3,4]
+Score for move: -12
+Move from: [4,5], to: [2,3]
+Score for move: -12
+Move from: [4,5], to: [1,2]
+Score for move: -12
+Move from: [4,5], to: [3,6]
+Score for move: -13
+Move from: [4,5], to: [2,7]
+Score for move: -10
+Move from: [4,5], to: [5,4]
+Score for move: -8
+Move from: [4,5], to: [6,3]
+Score for move: -8
+Move from: [4,5], to: [7,2]
+Score for move: -8
+Move from: [4,5], to: [5,6]
+Score for move: -8
+Move from: [4,5], to: [6,7]
+Score for move: -8
+Move from: [4,5], to: [4,6]
+Score for move: -15
+Move from: [4,5], to: [4,4]
+Score for move: -19
+Move from: [4,5], to: [5,5]
+Score for move: -12
+Move from: [4,5], to: [6,5]
+Score for move: -8
+Move from: [4,5], to: [7,5]
+Score for move: -12
+Move from: [4,5], to: [3,5]
+Score for move: -16
+Move from: [4,5], to: [2,5]
+Score for move: -6
+Move from: [4,7], to: [3,7]
+Score for move: -7
+Move from: [5,0], to: [5,1]
+Score for move: -7
+Move from: [5,0], to: [6,0]
+Score for move: -7
+Move from: [5,0], to: [7,0]
+Score for move: -7
+Move from: [5,0], to: [4,0]
+Score for move: -7
+Move from: [5,2], to: [4,2]
+Score for move: -7
+Move from: [6,1], to: [7,0]
+Score for move: -7
+Move from: [6,1], to: [7,2]
+Score for move: -7
+Move from: [7,4], to: [7,3]
+Score for move: -7
+Move from: [7,4], to: [6,4]
+Score for move: -7
+Move from: [7,4], to: [6,5]
+Score for move: -8
+Move from: [7,4], to: [6,3]
+Score for move: -7
+Move from: [7,7], to: [7,6]
+Score for move: -8
+Move from: [7,7], to: [7,5]
+Score for move: -9
+Move from: [7,7], to: [6,7]
+Score for move: -7
+Move from: [7,7], to: [5,7]
+Score for move: -5
+N_Moves calculated: 231008
+Current Move Time: 42955
+Current Move Average: 35185
+Sending Move from: [7,7], to: [5,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p					
+p					p		n
+P					q		
+	P			p	Q		P
+R		P					R
+	B						
+				K			
+Move from: [4,1], to: [3,1]
+Score for move: -12
+Move from: [4,5], to: [3,4]
+Score for move: -13
+Move from: [4,5], to: [2,3]
+Score for move: -13
+Move from: [4,5], to: [1,2]
+Score for move: -12
+Move from: [4,5], to: [3,6]
+Score for move: -13
+Move from: [4,5], to: [2,7]
+Score for move: -10
+Move from: [4,5], to: [5,4]
+Score for move: -5
+Move from: [4,5], to: [6,3]
+Score for move: -10
+Move from: [4,5], to: [7,2]
+Score for move: -10
+Move from: [4,5], to: [5,6]
+Score for move: -7
+Move from: [4,5], to: [6,7]
+Score for move: -5
+Move from: [4,5], to: [4,6]
+Score for move: -13
+Move from: [4,5], to: [4,4]
+Score for move: -12
+Move from: [4,5], to: [5,5]
+Score for move: -13
+Move from: [4,5], to: [6,5]
+Score for move: -9
+Move from: [4,5], to: [7,5]
+Score for move: -5
+Move from: [4,5], to: [3,5]
+Score for move: -5
+Move from: [4,7], to: [3,7]
+Score for move: -12
+Move from: [5,0], to: [5,1]
+Score for move: -12
+Move from: [5,0], to: [6,0]
+Score for move: -12
+Move from: [5,0], to: [7,0]
+Score for move: -12
+Move from: [5,0], to: [4,0]
+Score for move: -12
+Move from: [5,2], to: [4,2]
+Score for move: -12
+Move from: [5,7], to: [5,6]
+Score for move: -13
+Move from: [5,7], to: [5,5]
+Score for move: -9
+Move from: [5,7], to: [5,4]
+Score for move: -13
+Move from: [5,7], to: [5,3]
+Score for move: -13
+Move from: [5,7], to: [6,7]
+Score for move: -13
+Move from: [5,7], to: [7,7]
+Score for move: -12
+Move from: [6,1], to: [7,0]
+Score for move: -12
+Move from: [6,1], to: [7,2]
+Score for move: -9
+Move from: [7,4], to: [7,5]
+Score for move: -13
+Move from: [7,4], to: [7,3]
+Score for move: -12
+Move from: [7,4], to: [6,4]
+Score for move: -12
+Move from: [7,4], to: [6,5]
+Score for move: -13
+Move from: [7,4], to: [6,3]
+Score for move: -13
+N_Moves calculated: 265915
+Current Move Time: 46248
+Current Move Average: 35566
+Sending Move from: [4,5], to: [3,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					r
+	p	p					
+p					p		
+P					n		
+	P			p			P
+R		P					R
+	B						
+				K			
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,7], to: [3,7]
+Score for move: -5
+Move from: [5,0], to: [5,1]
+Score for move: -5
+Move from: [5,0], to: [6,0]
+Score for move: -5
+Move from: [5,0], to: [7,0]
+Score for move: -5
+Move from: [5,0], to: [4,0]
+Score for move: -5
+Move from: [5,2], to: [4,2]
+Score for move: -5
+Move from: [5,7], to: [5,6]
+Score for move: -10
+Move from: [5,7], to: [5,5]
+Score for move: -10
+Move from: [5,7], to: [5,4]
+Score for move: -10
+Move from: [5,7], to: [5,3]
+Score for move: -10
+Move from: [5,7], to: [6,7]
+Score for move: -5
+Move from: [5,7], to: [7,7]
+Score for move: -5
+Move from: [6,1], to: [7,0]
+Score for move: -5
+Move from: [6,1], to: [7,2]
+Score for move: -5
+Move from: [7,4], to: [7,5]
+Score for move: -5
+Move from: [7,4], to: [7,3]
+Score for move: -5
+Move from: [7,4], to: [6,4]
+Score for move: -5
+Move from: [7,4], to: [6,5]
+Score for move: -5
+Move from: [7,4], to: [6,3]
+Score for move: -5
+N_Moves calculated: 41399
+Current Move Time: 3661
+Current Move Average: 34503
+Sending Move from: [5,0], to: [5,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					
+	p	p					
+p					p		
+P					n		
+	P			p			r
+	R	P					R
+	B						
+				K			
+Move from: [4,1], to: [3,1]
+Score for move: -10
+Move from: [5,1], to: [5,0]
+Score for move: -11
+Move from: [5,2], to: [4,2]
+Score for move: -5
+Move from: [5,7], to: [5,6]
+Score for move: -10
+Move from: [5,7], to: [5,5]
+Score for move: -11
+Move from: [5,7], to: [5,4]
+Score for move: -10
+Move from: [5,7], to: [5,3]
+Score for move: -11
+Move from: [5,7], to: [6,7]
+Score for move: -10
+Move from: [5,7], to: [7,7]
+Score for move: -10
+Move from: [5,7], to: [4,7]
+Score for move: -5
+Move from: [6,1], to: [5,0]
+Score for move: -11
+Move from: [6,1], to: [7,0]
+Score for move: -11
+Move from: [6,1], to: [7,2]
+Score for move: -11
+Move from: [7,4], to: [7,5]
+Score for move: -11
+Move from: [7,4], to: [7,3]
+Score for move: -11
+Move from: [7,4], to: [6,4]
+Score for move: -11
+Move from: [7,4], to: [6,5]
+Score for move: -11
+Move from: [7,4], to: [6,3]
+Score for move: -11
+N_Moves calculated: 62606
+Current Move Time: 5124
+Current Move Average: 33555
+Sending Move from: [5,7], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					
+	p	p					
+p					p		
+P							
+	P			p			n
+	R	P					
+	B						
+				K			
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [5,1], to: [5,0]
+Score for move: -6
+Move from: [5,2], to: [4,2]
+Score for move: -5
+Move from: [6,1], to: [5,0]
+Score for move: -6
+Move from: [6,1], to: [7,0]
+Score for move: -6
+Move from: [6,1], to: [7,2]
+Score for move: -6
+Move from: [7,4], to: [7,5]
+Score for move: -6
+Move from: [7,4], to: [7,3]
+Score for move: -6
+Move from: [7,4], to: [6,4]
+Score for move: -6
+Move from: [7,4], to: [6,5]
+Score for move: -6
+Move from: [7,4], to: [6,3]
+Score for move: -6
+N_Moves calculated: 5105
+Current Move Time: 279
+Current Move Average: 32515
+Sending Move from: [5,2], to: [4,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					
+	p	p					
+p							
+P					p		
+	P	P		p			n
+	R						
+	B						
+				K			
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,1], to: [5,2]
+Score for move: -6
+Move from: [5,1], to: [5,3]
+Score for move: -10
+Move from: [5,1], to: [5,4]
+Score for move: -10
+Move from: [5,1], to: [5,5]
+Score for move: -10
+Move from: [5,1], to: [5,6]
+Score for move: -5
+Move from: [5,1], to: [5,7]
+Score for move: -5
+Move from: [5,1], to: [5,0]
+Score for move: -6
+Move from: [6,1], to: [5,0]
+Score for move: -6
+Move from: [6,1], to: [5,2]
+Score for move: -6
+Move from: [6,1], to: [4,3]
+Score for move: -7
+Move from: [6,1], to: [3,4]
+Score for move: -7
+Move from: [6,1], to: [2,5]
+Score for move: -5
+Move from: [6,1], to: [1,6]
+Score for move: -6
+Move from: [6,1], to: [0,7]
+Score for move: -6
+Move from: [6,1], to: [7,0]
+Score for move: -6
+Move from: [6,1], to: [7,2]
+Score for move: -6
+Move from: [7,4], to: [7,5]
+Score for move: -6
+Move from: [7,4], to: [7,3]
+Score for move: -6
+Move from: [7,4], to: [6,4]
+Score for move: -6
+Move from: [7,4], to: [6,5]
+Score for move: -6
+Move from: [7,4], to: [6,3]
+Score for move: -6
+N_Moves calculated: 14738
+Current Move Time: 1172
+Current Move Average: 31565
+Sending Move from: [6,1], to: [2,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n	k					
+	p	p					
+p					B		
+P					p		
+	P	P		p			
+	R				n		
+							
+				K			
+Move from: [5,1], to: [5,5]
+Score for move: -7
+Move from: [7,4], to: [7,5]
+Score for move: -10
+Move from: [7,4], to: [7,3]
+Score for move: -6
+Move from: [7,4], to: [6,4]
+Score for move: -6
+Move from: [7,4], to: [6,5]
+Score for move: -6
+N_Moves calculated: 5373
+Current Move Time: 420
+Current Move Average: 30649
+Sending Move from: [7,4], to: [6,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p	p	k				
+p					B		
+P					p		
+	P	P		p			
+	R				n		
+				K			
+							
+Move from: [2,5], to: [1,4]
+Score for move: -10
+Move from: [2,5], to: [0,3]
+Score for move: -10
+Move from: [2,5], to: [1,6]
+Score for move: -6
+Move from: [2,5], to: [0,7]
+Score for move: -6
+Move from: [2,5], to: [3,4]
+Score for move: -8
+Move from: [2,5], to: [4,3]
+Score for move: -13
+Move from: [2,5], to: [5,2]
+Score for move: -6
+Move from: [2,5], to: [6,1]
+Score for move: -6
+Move from: [2,5], to: [7,0]
+Score for move: -6
+Move from: [2,5], to: [3,6]
+Score for move: -10
+Move from: [2,5], to: [4,7]
+Score for move: -10
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,1], to: [5,2]
+Score for move: -6
+Move from: [5,1], to: [5,3]
+Score for move: -7
+Move from: [5,1], to: [5,4]
+Score for move: -6
+Move from: [5,1], to: [5,5]
+Score for move: -6
+Move from: [5,1], to: [5,0]
+Score for move: -6
+Move from: [5,1], to: [6,1]
+Score for move: -6
+Move from: [5,1], to: [7,1]
+Score for move: -5
+Move from: [6,4], to: [6,5]
+Score for move: -6
+Move from: [6,4], to: [7,5]
+Score for move: -10
+Move from: [6,4], to: [7,3]
+Score for move: -6
+Move from: [6,4], to: [5,4]
+Score for move: -6
+N_Moves calculated: 34784
+Current Move Time: 2861
+Current Move Average: 29855
+Sending Move from: [5,1], to: [7,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p	p					
+p				k	B		
+P					p		
+	P	P		p			
+					n		
+				K			
+	R						
+Move from: [2,5], to: [1,4]
+Score for move: -8
+Move from: [2,5], to: [0,3]
+Score for move: -5
+Move from: [2,5], to: [1,6]
+Score for move: -6
+Move from: [2,5], to: [0,7]
+Score for move: -6
+Move from: [2,5], to: [3,4]
+Score for move: -8
+Move from: [2,5], to: [4,3]
+Score for move: -8
+Move from: [2,5], to: [5,2]
+Score for move: -6
+Move from: [2,5], to: [6,1]
+Score for move: -6
+Move from: [2,5], to: [7,0]
+Score for move: -6
+Move from: [2,5], to: [3,6]
+Score for move: -8
+Move from: [2,5], to: [4,7]
+Score for move: -8
+Move from: [4,1], to: [3,1]
+Score for move: -8
+Move from: [4,2], to: [3,2]
+Score for move: -8
+Move from: [6,4], to: [6,5]
+Score for move: -8
+Move from: [6,4], to: [7,5]
+Score for move: -10
+Move from: [6,4], to: [7,3]
+Score for move: -8
+Move from: [6,4], to: [5,4]
+Score for move: -8
+Move from: [7,1], to: [7,2]
+Score for move: -8
+Move from: [7,1], to: [7,3]
+Score for move: -8
+Move from: [7,1], to: [7,4]
+Score for move: -10
+Move from: [7,1], to: [7,5]
+Score for move: -8
+Move from: [7,1], to: [7,6]
+Score for move: -13
+Move from: [7,1], to: [7,7]
+Score for move: -8
+Move from: [7,1], to: [7,0]
+Score for move: -8
+Move from: [7,1], to: [6,1]
+Score for move: -8
+Move from: [7,1], to: [5,1]
+Score for move: -8
+N_Moves calculated: 37016
+Current Move Time: 3219
+Current Move Average: 29115
+Sending Move from: [2,5], to: [0,3]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n		B				
+	p	p					
+p				k			
+P					p		
+	P	P	n	p			
+							
+				K			
+	R						
+Move from: [6,4], to: [6,5]
+Score for move: -5
+Move from: [6,4], to: [6,3]
+Score for move: -5
+Move from: [6,4], to: [7,4]
+Score for move: -6
+Move from: [6,4], to: [7,5]
+Score for move: -5
+Move from: [6,4], to: [7,3]
+Score for move: -5
+Move from: [6,4], to: [5,4]
+Score for move: -6
+N_Moves calculated: 3809
+Current Move Time: 286
+Current Move Average: 28336
+Sending Move from: [6,4], to: [7,3]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n		B				
+	p						
+p		p		k			
+P					p		
+	P	P	n	p			
+							
+							
+	R		K				
+Move from: [0,3], to: [1,2]
+Score for move: -5
+Move from: [0,3], to: [2,1]
+Score for move: -5
+Move from: [0,3], to: [1,4]
+Score for move: -8
+Move from: [0,3], to: [2,5]
+Score for move: -8
+Move from: [0,3], to: [3,6]
+Score for move: -5
+Move from: [0,3], to: [4,7]
+Score for move: -5
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [7,1], to: [7,2]
+Score for move: -6
+Move from: [7,1], to: [7,0]
+Score for move: -6
+Move from: [7,1], to: [6,1]
+Score for move: -5
+Move from: [7,1], to: [5,1]
+Score for move: -11
+Move from: [7,3], to: [7,4]
+Score for move: -6
+Move from: [7,3], to: [7,2]
+Score for move: -5
+Move from: [7,3], to: [6,3]
+Score for move: -5
+N_Moves calculated: 12611
+Current Move Time: 811
+Current Move Average: 27612
+Sending Move from: [0,3], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p						
+p		p		k			
+P							
+	P	P	n	p	p		B
+							
+							
+	R		K				
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [4,7], to: [3,6]
+Score for move: -5
+Move from: [4,7], to: [2,5]
+Score for move: -8
+Move from: [4,7], to: [1,4]
+Score for move: -8
+Move from: [4,7], to: [0,3]
+Score for move: -5
+Move from: [4,7], to: [5,6]
+Score for move: -8
+Move from: [4,7], to: [6,5]
+Score for move: -5
+Move from: [4,7], to: [7,4]
+Score for move: -5
+Move from: [7,1], to: [7,2]
+Score for move: -6
+Move from: [7,1], to: [7,0]
+Score for move: -6
+Move from: [7,1], to: [6,1]
+Score for move: -5
+Move from: [7,1], to: [5,1]
+Score for move: -11
+Move from: [7,3], to: [7,4]
+Score for move: -8
+Move from: [7,3], to: [7,2]
+Score for move: -5
+Move from: [7,3], to: [6,3]
+Score for move: -8
+N_Moves calculated: 16188
+Current Move Time: 1038
+Current Move Average: 26930
+Sending Move from: [4,7], to: [7,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p						
+p		p		k			
+P							
+	P	P		p	p		
+					n		
+							
+	R		K	B			
+Move from: [4,1], to: [3,1]
+Score for move: -7
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [7,1], to: [7,2]
+Score for move: -6
+Move from: [7,1], to: [7,0]
+Score for move: -6
+Move from: [7,1], to: [6,1]
+Score for move: -6
+Move from: [7,1], to: [5,1]
+Score for move: -6
+Move from: [7,3], to: [7,2]
+Score for move: -8
+Move from: [7,3], to: [6,4]
+Score for move: -6
+Move from: [7,3], to: [6,2]
+Score for move: -6
+Move from: [7,4], to: [6,3]
+Score for move: -5
+Move from: [7,4], to: [5,2]
+Score for move: -5
+Move from: [7,4], to: [6,5]
+Score for move: -7
+Move from: [7,4], to: [5,6]
+Score for move: -8
+Move from: [7,4], to: [4,7]
+Score for move: -8
+N_Moves calculated: 32595
+Current Move Time: 2071
+Current Move Average: 26309
+Sending Move from: [7,4], to: [5,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p						
+p		p					
+P					k		
+	P	P		p	p		
+		B			n		
+							
+	R		K				
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,2], to: [4,3]
+Score for move: -8
+Move from: [5,2], to: [3,4]
+Score for move: -8
+Move from: [5,2], to: [2,5]
+Score for move: -8
+Move from: [5,2], to: [1,6]
+Score for move: -5
+Move from: [5,2], to: [0,7]
+Score for move: -5
+Move from: [5,2], to: [6,1]
+Score for move: -5
+Move from: [5,2], to: [7,0]
+Score for move: -5
+Move from: [5,2], to: [6,3]
+Score for move: -6
+Move from: [5,2], to: [7,4]
+Score for move: -6
+Move from: [7,1], to: [7,2]
+Score for move: -5
+Move from: [7,1], to: [7,0]
+Score for move: -5
+Move from: [7,1], to: [6,1]
+Score for move: -5
+Move from: [7,1], to: [5,1]
+Score for move: -5
+Move from: [7,3], to: [7,2]
+Score for move: -5
+Move from: [7,3], to: [6,4]
+Score for move: -5
+Move from: [7,3], to: [6,2]
+Score for move: -5
+N_Moves calculated: 17383
+Current Move Time: 1176
+Current Move Average: 25696
+Sending Move from: [7,1], to: [7,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p						
+p		p					
+P					k		
+	P	P		p	p		n
+		B					
+							
+		R	K				
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,2], to: [4,3]
+Score for move: -5
+Move from: [5,2], to: [3,4]
+Score for move: -8
+Move from: [5,2], to: [2,5]
+Score for move: -8
+Move from: [5,2], to: [1,6]
+Score for move: -5
+Move from: [5,2], to: [0,7]
+Score for move: -5
+Move from: [5,2], to: [6,1]
+Score for move: -5
+Move from: [5,2], to: [7,0]
+Score for move: -5
+Move from: [5,2], to: [6,3]
+Score for move: -5
+Move from: [5,2], to: [7,4]
+Score for move: -5
+Move from: [7,2], to: [7,1]
+Score for move: -5
+Move from: [7,2], to: [7,0]
+Score for move: -5
+Move from: [7,2], to: [6,2]
+Score for move: -5
+Move from: [7,3], to: [7,4]
+Score for move: -5
+Move from: [7,3], to: [6,3]
+Score for move: -5
+Move from: [7,3], to: [6,4]
+Score for move: -5
+Move from: [7,3], to: [6,2]
+Score for move: -5
+N_Moves calculated: 9935
+Current Move Time: 664
+Current Move Average: 25100
+Sending Move from: [7,3], to: [6,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+	p						
+p		p					
+P					k		
+	P	P		p	p		
+		B					
+		K				n	
+		R					
+Move from: [4,1], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,2], to: [4,3]
+Score for move: -5
+Move from: [5,2], to: [3,4]
+Score for move: -8
+Move from: [5,2], to: [2,5]
+Score for move: -8
+Move from: [5,2], to: [1,6]
+Score for move: -6
+Move from: [5,2], to: [0,7]
+Score for move: -6
+Move from: [5,2], to: [6,1]
+Score for move: -6
+Move from: [5,2], to: [7,0]
+Score for move: -6
+Move from: [5,2], to: [6,3]
+Score for move: -5
+Move from: [5,2], to: [7,4]
+Score for move: -6
+Move from: [6,2], to: [6,3]
+Score for move: -5
+Move from: [6,2], to: [6,1]
+Score for move: -5
+Move from: [6,2], to: [7,3]
+Score for move: -6
+Move from: [6,2], to: [7,1]
+Score for move: -5
+Move from: [6,2], to: [5,1]
+Score for move: -5
+Move from: [7,2], to: [7,3]
+Score for move: -10
+Move from: [7,2], to: [7,4]
+Score for move: -7
+Move from: [7,2], to: [7,5]
+Score for move: -10
+Move from: [7,2], to: [7,6]
+Score for move: -6
+Move from: [7,2], to: [7,7]
+Score for move: -6
+Move from: [7,2], to: [7,1]
+Score for move: -6
+Move from: [7,2], to: [7,0]
+Score for move: -6
+N_Moves calculated: 17552
+Current Move Time: 1414
+Current Move Average: 24549
+Sending Move from: [6,2], to: [5,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+							
+p		p					
+P	p				k		
+	P	P		p	p		
+	K	B					
+						n	
+		R					
+Move from: [3,0], to: [2,1]
+Score for move: -5
+Move from: [4,2], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,1], to: [5,0]
+Score for move: -6
+Move from: [5,1], to: [6,1]
+Score for move: -6
+Move from: [5,1], to: [6,2]
+Score for move: -6
+Move from: [5,1], to: [6,0]
+Score for move: -6
+Move from: [5,2], to: [4,3]
+Score for move: -5
+Move from: [5,2], to: [3,4]
+Score for move: -8
+Move from: [5,2], to: [2,5]
+Score for move: -8
+Move from: [5,2], to: [1,6]
+Score for move: -6
+Move from: [5,2], to: [0,7]
+Score for move: -6
+Move from: [5,2], to: [6,1]
+Score for move: -5
+Move from: [5,2], to: [7,0]
+Score for move: -5
+Move from: [5,2], to: [6,3]
+Score for move: -6
+Move from: [5,2], to: [7,4]
+Score for move: -8
+Move from: [7,2], to: [7,3]
+Score for move: -6
+Move from: [7,2], to: [7,4]
+Score for move: -10
+Move from: [7,2], to: [7,5]
+Score for move: -6
+Move from: [7,2], to: [7,6]
+Score for move: -5
+Move from: [7,2], to: [7,7]
+Score for move: -5
+Move from: [7,2], to: [7,1]
+Score for move: -5
+Move from: [7,2], to: [7,0]
+Score for move: -5
+Move from: [7,2], to: [6,2]
+Score for move: -6
+N_Moves calculated: 12375
+Current Move Time: 1032
+Current Move Average: 24015
+Sending Move from: [7,2], to: [7,6]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+							
+p		p					
+P	p				k		
+	P	P		p	p		
+	K	B		n			
+							
+						R	
+Move from: [3,0], to: [2,1]
+Score for move: -6
+Move from: [4,2], to: [3,1]
+Score for move: -6
+Move from: [4,2], to: [3,2]
+Score for move: -6
+Move from: [5,1], to: [5,0]
+Score for move: -7
+Move from: [5,1], to: [6,1]
+Score for move: -7
+Move from: [5,1], to: [6,0]
+Score for move: -7
+Move from: [5,2], to: [4,3]
+Score for move: -7
+Move from: [5,2], to: [3,4]
+Score for move: -9
+Move from: [5,2], to: [2,5]
+Score for move: -9
+Move from: [5,2], to: [1,6]
+Score for move: -7
+Move from: [5,2], to: [0,7]
+Score for move: -7
+Move from: [5,2], to: [6,1]
+Score for move: -7
+Move from: [5,2], to: [7,0]
+Score for move: -7
+Move from: [5,2], to: [6,3]
+Score for move: -7
+Move from: [5,2], to: [7,4]
+Score for move: -7
+Move from: [7,6], to: [7,7]
+Score for move: -6
+Move from: [7,6], to: [7,5]
+Score for move: -11
+Move from: [7,6], to: [7,4]
+Score for move: -7
+Move from: [7,6], to: [7,3]
+Score for move: -11
+Move from: [7,6], to: [7,2]
+Score for move: -7
+Move from: [7,6], to: [7,1]
+Score for move: -7
+Move from: [7,6], to: [7,0]
+Score for move: -7
+Move from: [7,6], to: [6,6]
+Score for move: -11
+Move from: [7,6], to: [5,6]
+Score for move: -11
+Move from: [7,6], to: [4,6]
+Score for move: -11
+Move from: [7,6], to: [3,6]
+Score for move: -10
+Move from: [7,6], to: [2,6]
+Score for move: -11
+Move from: [7,6], to: [1,6]
+Score for move: -6
+Move from: [7,6], to: [0,6]
+Score for move: -6
+N_Moves calculated: 19435
+Current Move Time: 1721
+Current Move Average: 23519
+Sending Move from: [7,6], to: [1,6]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+						R	
+p		p					
+P					k		
+	P	p		p	p		
+	K	B		n			
+							
+							
+Move from: [5,1], to: [5,0]
+Score for move: -7
+Move from: [5,1], to: [6,1]
+Score for move: -9
+Move from: [5,1], to: [6,0]
+Score for move: -6
+Move from: [5,1], to: [4,0]
+Score for move: -6
+N_Moves calculated: 1859
+Current Move Time: 151
+Current Move Average: 23011
+Sending Move from: [5,1], to: [6,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+						R	
+p		p					
+P					k		
+	P	p		p	p		
+		B					
+K							
+			n				
+Move from: [1,6], to: [1,7]
+Score for move: -9
+Move from: [1,6], to: [1,5]
+Score for move: -6
+Move from: [1,6], to: [1,4]
+Score for move: -9
+Move from: [1,6], to: [1,3]
+Score for move: -14
+Move from: [1,6], to: [1,2]
+Score for move: -9
+Move from: [1,6], to: [1,1]
+Score for move: -9
+Move from: [1,6], to: [1,0]
+Score for move: -14
+Move from: [1,6], to: [2,6]
+Score for move: -14
+Move from: [1,6], to: [3,6]
+Score for move: -11
+Move from: [1,6], to: [4,6]
+Score for move: -14
+Move from: [1,6], to: [5,6]
+Score for move: -11
+Move from: [1,6], to: [6,6]
+Score for move: -9
+Move from: [1,6], to: [7,6]
+Score for move: -9
+Move from: [1,6], to: [0,6]
+Score for move: -9
+Move from: [4,1], to: [3,1]
+Score for move: -10
+Move from: [5,2], to: [4,3]
+Score for move: -6
+Move from: [5,2], to: [3,4]
+Score for move: -9
+Move from: [5,2], to: [2,5]
+Score for move: -9
+Move from: [5,2], to: [6,1]
+Score for move: -6
+Move from: [5,2], to: [7,0]
+Score for move: -6
+Move from: [5,2], to: [6,3]
+Score for move: -6
+Move from: [5,2], to: [7,4]
+Score for move: -6
+Move from: [6,0], to: [7,0]
+Score for move: -9
+Move from: [6,0], to: [7,1]
+Score for move: -9
+Move from: [6,0], to: [5,0]
+Score for move: -9
+N_Moves calculated: 11987
+Current Move Time: 939
+Current Move Average: 22542
+Sending Move from: [5,2], to: [7,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r	n						
+						R	
+p							
+P		p			k		
+	P	p		p	p		
+							
+K							
+			n	B			
+Move from: [1,6], to: [1,7]
+Score for move: -7
+Move from: [1,6], to: [1,5]
+Score for move: -6
+Move from: [1,6], to: [1,4]
+Score for move: -6
+Move from: [1,6], to: [1,3]
+Score for move: -11
+Move from: [1,6], to: [1,2]
+Score for move: -6
+Move from: [1,6], to: [1,1]
+Score for move: -6
+Move from: [1,6], to: [1,0]
+Score for move: -10
+Move from: [1,6], to: [2,6]
+Score for move: -10
+Move from: [1,6], to: [3,6]
+Score for move: -10
+Move from: [1,6], to: [4,6]
+Score for move: -10
+Move from: [1,6], to: [5,6]
+Score for move: -10
+Move from: [1,6], to: [6,6]
+Score for move: -7
+Move from: [1,6], to: [7,6]
+Score for move: -6
+Move from: [1,6], to: [0,6]
+Score for move: -6
+Move from: [4,1], to: [3,2]
+Score for move: -5
+Move from: [4,1], to: [3,1]
+Score for move: -7
+Move from: [6,0], to: [7,0]
+Score for move: -7
+Move from: [6,0], to: [7,1]
+Score for move: -7
+Move from: [6,0], to: [5,0]
+Score for move: -7
+Move from: [7,4], to: [6,3]
+Score for move: -7
+Move from: [7,4], to: [5,2]
+Score for move: -10
+Move from: [7,4], to: [6,5]
+Score for move: -9
+Move from: [7,4], to: [5,6]
+Score for move: -9
+Move from: [7,4], to: [4,7]
+Score for move: -7
+N_Moves calculated: 14221
+Current Move Time: 1044
+Current Move Average: 22094
+Sending Move from: [4,1], to: [3,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+						R	
+p		n					
+P		P			k		
+		p		p	p		
+							
+K							
+			n	B			
+Move from: [1,6], to: [1,7]
+Score for move: -6
+Move from: [1,6], to: [1,5]
+Score for move: -6
+Move from: [1,6], to: [1,4]
+Score for move: -10
+Move from: [1,6], to: [1,3]
+Score for move: -5
+Move from: [1,6], to: [1,2]
+Score for move: -5
+Move from: [1,6], to: [1,1]
+Score for move: -6
+Move from: [1,6], to: [1,0]
+Score for move: -11
+Move from: [1,6], to: [2,6]
+Score for move: -11
+Move from: [1,6], to: [3,6]
+Score for move: -11
+Move from: [1,6], to: [4,6]
+Score for move: -11
+Move from: [1,6], to: [5,6]
+Score for move: -10
+Move from: [1,6], to: [6,6]
+Score for move: -6
+Move from: [1,6], to: [7,6]
+Score for move: -6
+Move from: [1,6], to: [0,6]
+Score for move: -11
+Move from: [6,0], to: [7,0]
+Score for move: -6
+Move from: [6,0], to: [7,1]
+Score for move: -6
+Move from: [6,0], to: [5,0]
+Score for move: -6
+Move from: [7,4], to: [6,3]
+Score for move: -6
+Move from: [7,4], to: [5,2]
+Score for move: -9
+Move from: [7,4], to: [4,1]
+Score for move: -8
+Move from: [7,4], to: [6,5]
+Score for move: -8
+Move from: [7,4], to: [5,6]
+Score for move: -8
+Move from: [7,4], to: [4,7]
+Score for move: -6
+N_Moves calculated: 28000
+Current Move Time: 2058
+Current Move Average: 21685
+Sending Move from: [1,6], to: [1,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+		R					
+p							
+P		P		n	k		
+		p		p	p		
+							
+K							
+			n	B			
+Move from: [1,2], to: [1,3]
+Score for move: -10
+Move from: [1,2], to: [1,4]
+Score for move: -6
+Move from: [1,2], to: [1,5]
+Score for move: -10
+Move from: [1,2], to: [1,6]
+Score for move: -6
+Move from: [1,2], to: [1,7]
+Score for move: -5
+Move from: [1,2], to: [1,1]
+Score for move: -6
+Move from: [1,2], to: [1,0]
+Score for move: -10
+Move from: [1,2], to: [2,2]
+Score for move: -11
+Move from: [1,2], to: [0,2]
+Score for move: -11
+Move from: [3,2], to: [2,2]
+Score for move: -6
+Move from: [6,0], to: [7,0]
+Score for move: -5
+Move from: [6,0], to: [7,1]
+Score for move: -5
+Move from: [6,0], to: [5,0]
+Score for move: -5
+Move from: [7,4], to: [6,3]
+Score for move: -5
+Move from: [7,4], to: [5,2]
+Score for move: -8
+Move from: [7,4], to: [4,1]
+Score for move: -5
+Move from: [7,4], to: [6,5]
+Score for move: -8
+Move from: [7,4], to: [5,6]
+Score for move: -8
+Move from: [7,4], to: [4,7]
+Score for move: -5
+N_Moves calculated: 33609
+Current Move Time: 2494
+Current Move Average: 21301
+Sending Move from: [7,4], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+		R					
+p							
+P		P		n			
+		p		p	p	k	B
+							
+K							
+			n				
+Move from: [1,2], to: [1,3]
+Score for move: -11
+Move from: [1,2], to: [1,4]
+Score for move: -8
+Move from: [1,2], to: [1,5]
+Score for move: -10
+Move from: [1,2], to: [1,6]
+Score for move: -8
+Move from: [1,2], to: [1,7]
+Score for move: -6
+Move from: [1,2], to: [1,1]
+Score for move: -8
+Move from: [1,2], to: [1,0]
+Score for move: -10
+Move from: [1,2], to: [2,2]
+Score for move: -11
+Move from: [1,2], to: [0,2]
+Score for move: -11
+Move from: [3,2], to: [2,2]
+Score for move: -8
+Move from: [4,7], to: [3,6]
+Score for move: -8
+Move from: [4,7], to: [2,5]
+Score for move: -5
+Move from: [4,7], to: [1,4]
+Score for move: -5
+Move from: [4,7], to: [0,3]
+Score for move: -8
+Move from: [4,7], to: [5,6]
+Score for move: -8
+Move from: [4,7], to: [6,5]
+Score for move: -8
+Move from: [4,7], to: [7,4]
+Score for move: -5
+Move from: [6,0], to: [7,0]
+Score for move: -8
+Move from: [6,0], to: [7,1]
+Score for move: -8
+Move from: [6,0], to: [5,0]
+Score for move: -8
+N_Moves calculated: 38169
+Current Move Time: 2773
+Current Move Average: 20938
+Sending Move from: [4,7], to: [1,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+		R		B			
+p							
+P		P		n			
+		p		p	p		
+						k	
+K							
+			n				
+Move from: [1,2], to: [1,3]
+Score for move: -10
+Move from: [1,2], to: [1,1]
+Score for move: -6
+Move from: [1,2], to: [1,0]
+Score for move: -10
+Move from: [1,2], to: [2,2]
+Score for move: -11
+Move from: [1,2], to: [0,2]
+Score for move: -11
+Move from: [1,4], to: [0,3]
+Score for move: -8
+Move from: [1,4], to: [0,5]
+Score for move: -8
+Move from: [1,4], to: [2,3]
+Score for move: -5
+Move from: [1,4], to: [2,5]
+Score for move: -5
+Move from: [1,4], to: [3,6]
+Score for move: -5
+Move from: [1,4], to: [4,7]
+Score for move: -8
+Move from: [3,2], to: [2,2]
+Score for move: -6
+Move from: [6,0], to: [7,0]
+Score for move: -5
+Move from: [6,0], to: [7,1]
+Score for move: -5
+Move from: [6,0], to: [5,0]
+Score for move: -5
+N_Moves calculated: 22397
+Current Move Time: 1530
+Current Move Average: 20564
+Sending Move from: [6,0], to: [5,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+		R		B			
+p							
+P		P		n			
+		p		p	p		
+K		n				k	
+							
+							
+Move from: [1,2], to: [1,3]
+Score for move: -10
+Move from: [1,2], to: [1,1]
+Score for move: -6
+Move from: [1,2], to: [1,0]
+Score for move: -10
+Move from: [1,2], to: [2,2]
+Score for move: -11
+Move from: [1,2], to: [0,2]
+Score for move: -11
+Move from: [1,4], to: [0,3]
+Score for move: -10
+Move from: [1,4], to: [0,5]
+Score for move: -10
+Move from: [1,4], to: [2,3]
+Score for move: -10
+Move from: [1,4], to: [2,5]
+Score for move: -10
+Move from: [1,4], to: [3,6]
+Score for move: -10
+Move from: [1,4], to: [4,7]
+Score for move: -8
+Move from: [3,2], to: [2,2]
+Score for move: -10
+Move from: [5,0], to: [6,1]
+Score for move: -8
+Move from: [5,0], to: [4,1]
+Score for move: -10
+N_Moves calculated: 20747
+Current Move Time: 1401
+Current Move Average: 20203
+Sending Move from: [1,2], to: [1,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+	R			B			
+p		n					
+P		P					
+		p		p	p		
+K		n				k	
+							
+							
+Move from: [1,1], to: [1,2]
+Score for move: -10
+Move from: [1,1], to: [1,3]
+Score for move: -8
+Move from: [1,1], to: [1,0]
+Score for move: -11
+Move from: [1,1], to: [2,1]
+Score for move: -8
+Move from: [1,1], to: [3,1]
+Score for move: -13
+Move from: [1,1], to: [4,1]
+Score for move: -7
+Move from: [1,1], to: [5,1]
+Score for move: -11
+Move from: [1,1], to: [6,1]
+Score for move: -8
+Move from: [1,1], to: [7,1]
+Score for move: -13
+Move from: [1,1], to: [0,1]
+Score for move: -1009
+Move from: [1,4], to: [0,3]
+Score for move: -8
+Move from: [1,4], to: [0,5]
+Score for move: -8
+Move from: [1,4], to: [2,3]
+Score for move: -7
+Move from: [1,4], to: [2,5]
+Score for move: -6
+Move from: [1,4], to: [3,6]
+Score for move: -6
+Move from: [1,4], to: [4,7]
+Score for move: -8
+Move from: [5,0], to: [6,1]
+Score for move: -8
+N_Moves calculated: 29078
+Current Move Time: 1908
+Current Move Average: 19864
+Sending Move from: [1,4], to: [2,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+	R						
+p		n			B		
+P		P					
+		p		p	p		
+K						k	
+				n			
+							
+Move from: [1,1], to: [1,2]
+Score for move: -6
+Move from: [1,1], to: [1,3]
+Score for move: -6
+Move from: [1,1], to: [1,4]
+Score for move: -7
+Move from: [1,1], to: [1,5]
+Score for move: -6
+Move from: [1,1], to: [1,6]
+Score for move: -6
+Move from: [1,1], to: [1,7]
+Score for move: -6
+Move from: [1,1], to: [1,0]
+Score for move: -11
+Move from: [1,1], to: [2,1]
+Score for move: -6
+Move from: [1,1], to: [3,1]
+Score for move: -11
+Move from: [1,1], to: [4,1]
+Score for move: -7
+Move from: [1,1], to: [5,1]
+Score for move: -10
+Move from: [1,1], to: [6,1]
+Score for move: -6
+Move from: [1,1], to: [7,1]
+Score for move: -6
+Move from: [1,1], to: [0,1]
+Score for move: -11
+Move from: [2,5], to: [1,4]
+Score for move: -6
+Move from: [2,5], to: [0,3]
+Score for move: -8
+Move from: [2,5], to: [1,6]
+Score for move: -6
+Move from: [2,5], to: [0,7]
+Score for move: -8
+Move from: [2,5], to: [3,4]
+Score for move: -8
+Move from: [2,5], to: [4,3]
+Score for move: -8
+Move from: [2,5], to: [5,2]
+Score for move: -8
+Move from: [2,5], to: [6,1]
+Score for move: -6
+Move from: [2,5], to: [7,0]
+Score for move: -6
+Move from: [2,5], to: [3,6]
+Score for move: -6
+Move from: [2,5], to: [4,7]
+Score for move: -8
+Move from: [5,0], to: [6,0]
+Score for move: -6
+Move from: [5,0], to: [6,1]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -6
+N_Moves calculated: 47289
+Current Move Time: 3594
+Current Move Average: 19568
+Sending Move from: [2,5], to: [1,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+r							
+	R			B			
+p		n						
+P		P					
+		p		p			
+K					p	k	
+				n			
+							
+Move from: [1,1], to: [1,2]
+Score for move: -6
+Move from: [1,1], to: [1,3]
+Score for move: -6
+Move from: [1,1], to: [1,0]
+Score for move: -10
+Move from: [1,1], to: [2,1]
+Score for move: -8
+Move from: [1,1], to: [3,1]
+Score for move: -10
+Move from: [1,1], to: [4,1]
+Score for move: -7
+Move from: [1,1], to: [5,1]
+Score for move: -10
+Move from: [1,1], to: [6,1]
+Score for move: -8
+Move from: [1,1], to: [7,1]
+Score for move: -8
+Move from: [1,1], to: [0,1]
+Score for move: -10
+Move from: [1,4], to: [0,3]
+Score for move: -8
+Move from: [1,4], to: [0,5]
+Score for move: -8
+Move from: [1,4], to: [2,3]
+Score for move: -6
+Move from: [1,4], to: [2,5]
+Score for move: -6
+Move from: [1,4], to: [3,6]
+Score for move: -8
+Move from: [1,4], to: [4,7]
+Score for move: -8
+Move from: [5,0], to: [6,0]
+Score for move: -8
+Move from: [5,0], to: [6,1]
+Score for move: -8
+Move from: [5,0], to: [4,0]
+Score for move: -8
+N_Moves calculated: 33589
+Current Move Time: 2254
+Current Move Average: 19259
+Sending Move from: [1,4], to: [2,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+		r					
+	R						
+p		n			B		
+P		P					
+		p		p			
+K					p	k	
+				n			
+							
+Move from: [1,1], to: [1,2]
+Score for move: -11
+Move from: [1,1], to: [1,3]
+Score for move: -6
+Move from: [1,1], to: [1,4]
+Score for move: -8
+Move from: [1,1], to: [1,5]
+Score for move: -6
+Move from: [1,1], to: [1,6]
+Score for move: -5
+Move from: [1,1], to: [1,7]
+Score for move: -6
+Move from: [1,1], to: [1,0]
+Score for move: -10
+Move from: [1,1], to: [2,1]
+Score for move: -8
+Move from: [1,1], to: [3,1]
+Score for move: -10
+Move from: [1,1], to: [4,1]
+Score for move: -8
+Move from: [1,1], to: [5,1]
+Score for move: -10
+Move from: [1,1], to: [6,1]
+Score for move: -8
+Move from: [1,1], to: [7,1]
+Score for move: -6
+Move from: [1,1], to: [0,1]
+Score for move: -11
+Move from: [2,5], to: [1,4]
+Score for move: -6
+Move from: [2,5], to: [0,3]
+Score for move: -8
+Move from: [2,5], to: [1,6]
+Score for move: -8
+Move from: [2,5], to: [0,7]
+Score for move: -8
+Move from: [2,5], to: [3,4]
+Score for move: -8
+Move from: [2,5], to: [4,3]
+Score for move: -8
+Move from: [2,5], to: [5,2]
+Score for move: -8
+Move from: [2,5], to: [6,1]
+Score for move: -6
+Move from: [2,5], to: [7,0]
+Score for move: -6
+Move from: [2,5], to: [3,6]
+Score for move: -8
+Move from: [2,5], to: [4,7]
+Score for move: -8
+Move from: [5,0], to: [6,0]
+Score for move: -6
+Move from: [5,0], to: [6,1]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -6
+N_Moves calculated: 56526
+Current Move Time: 4384
+Current Move Average: 18998
+Sending Move from: [1,1], to: [1,6]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+		r					
+						R	
+p		n			B		
+P		P					
+		p		p			
+K					p		
+				n	k		
+							
+Move from: [1,6], to: [1,7]
+Score for move: -6
+Move from: [1,6], to: [1,5]
+Score for move: -6
+Move from: [1,6], to: [1,4]
+Score for move: -8
+Move from: [1,6], to: [1,3]
+Score for move: -6
+Move from: [1,6], to: [1,2]
+Score for move: -10
+Move from: [1,6], to: [1,1]
+Score for move: -6
+Move from: [1,6], to: [1,0]
+Score for move: -10
+Move from: [1,6], to: [2,6]
+Score for move: -6
+Move from: [1,6], to: [3,6]
+Score for move: -7
+Move from: [1,6], to: [4,6]
+Score for move: -6
+Move from: [1,6], to: [5,6]
+Score for move: -11
+Move from: [1,6], to: [6,6]
+Score for move: -11
+Move from: [1,6], to: [7,6]
+Score for move: -11
+Move from: [1,6], to: [0,6]
+Score for move: -10
+Move from: [2,5], to: [1,4]
+Score for move: -6
+Move from: [2,5], to: [0,3]
+Score for move: -9
+Move from: [2,5], to: [3,4]
+Score for move: -9
+Move from: [2,5], to: [4,3]
+Score for move: -9
+Move from: [2,5], to: [5,2]
+Score for move: -9
+Move from: [2,5], to: [6,1]
+Score for move: -7
+Move from: [2,5], to: [7,0]
+Score for move: -7
+Move from: [2,5], to: [3,6]
+Score for move: -6
+Move from: [2,5], to: [4,7]
+Score for move: -6
+Move from: [5,0], to: [6,0]
+Score for move: -6
+Move from: [5,0], to: [6,1]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -6
+N_Moves calculated: 59590
+Current Move Time: 4859
+Current Move Average: 18754
+Sending Move from: [2,5], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+		r					
+						R	
+p		n					
+P		P					
+		p		p			B
+K				k	p		
+				n			
+							
+Move from: [1,6], to: [1,7]
+Score for move: -6
+Move from: [1,6], to: [1,5]
+Score for move: -6
+Move from: [1,6], to: [1,4]
+Score for move: -8
+Move from: [1,6], to: [1,3]
+Score for move: -6
+Move from: [1,6], to: [1,2]
+Score for move: -10
+Move from: [1,6], to: [1,1]
+Score for move: -6
+Move from: [1,6], to: [1,0]
+Score for move: -10
+Move from: [1,6], to: [2,6]
+Score for move: -6
+Move from: [1,6], to: [3,6]
+Score for move: -7
+Move from: [1,6], to: [4,6]
+Score for move: -6
+Move from: [1,6], to: [5,6]
+Score for move: -8
+Move from: [1,6], to: [6,6]
+Score for move: -10
+Move from: [1,6], to: [7,6]
+Score for move: -10
+Move from: [1,6], to: [0,6]
+Score for move: -11
+Move from: [4,7], to: [3,6]
+Score for move: -6
+Move from: [4,7], to: [2,5]
+Score for move: -6
+Move from: [4,7], to: [1,4]
+Score for move: -6
+Move from: [4,7], to: [0,3]
+Score for move: -9
+Move from: [4,7], to: [5,6]
+Score for move: -7
+Move from: [4,7], to: [6,5]
+Score for move: -9
+Move from: [4,7], to: [7,4]
+Score for move: -7
+Move from: [5,0], to: [6,0]
+Score for move: -6
+Move from: [5,0], to: [6,1]
+Score for move: -6
+Move from: [5,0], to: [4,0]
+Score for move: -6
+N_Moves calculated: 51836
+Current Move Time: 3908
+Current Move Average: 18503
+Sending Move from: [1,6], to: [1,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+		r					
+					R		
+p							
+n		P					
+		p		p			B
+K				k	p		
+				n			
+							
+Move from: [1,5], to: [1,6]
+Score for move: -7
+Move from: [1,5], to: [1,7]
+Score for move: -7
+Move from: [1,5], to: [1,4]
+Score for move: -7
+Move from: [1,5], to: [1,3]
+Score for move: -7
+Move from: [1,5], to: [1,2]
+Score for move: -11
+Move from: [1,5], to: [1,1]
+Score for move: -11
+Move from: [1,5], to: [1,0]
+Score for move: -6
+Move from: [1,5], to: [2,5]
+Score for move: -6
+Move from: [1,5], to: [3,5]
+Score for move: -7
+Move from: [1,5], to: [4,5]
+Score for move: -12
+Move from: [1,5], to: [5,5]
+Score for move: -11
+Move from: [1,5], to: [0,5]
+Score for move: -11
+Move from: [3,2], to: [2,2]
+Score for move: -7
+Move from: [4,7], to: [3,6]
+Score for move: -7
+Move from: [4,7], to: [2,5]
+Score for move: -7
+Move from: [4,7], to: [1,4]
+Score for move: -7
+Move from: [4,7], to: [0,3]
+Score for move: -9
+Move from: [4,7], to: [5,6]
+Score for move: -10
+Move from: [4,7], to: [6,5]
+Score for move: -10
+Move from: [4,7], to: [7,4]
+Score for move: -7
+Move from: [5,0], to: [6,0]
+Score for move: -7
+Move from: [5,0], to: [6,1]
+Score for move: -7
+Move from: [5,0], to: [4,0]
+Score for move: -7
+Move from: [5,0], to: [4,1]
+Score for move: -6
+N_Moves calculated: 38492
+Current Move Time: 2963
+Current Move Average: 18244
+Sending Move from: [1,5], to: [2,5]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+							
+p					R		
+n		r					
+		p		p			B
+K				k	p		
+				n			
+							
+Move from: [2,5], to: [2,6]
+Score for move: -9
+Move from: [2,5], to: [2,7]
+Score for move: -9
+Move from: [2,5], to: [2,4]
+Score for move: -9
+Move from: [2,5], to: [2,3]
+Score for move: -9
+Move from: [2,5], to: [2,2]
+Score for move: -12
+Move from: [2,5], to: [2,1]
+Score for move: -9
+Move from: [2,5], to: [2,0]
+Score for move: -8
+Move from: [2,5], to: [3,5]
+Score for move: -12
+Move from: [2,5], to: [4,5]
+Score for move: -12
+Move from: [2,5], to: [5,5]
+Score for move: -11
+Move from: [2,5], to: [1,5]
+Score for move: -7
+Move from: [2,5], to: [0,5]
+Score for move: -7
+Move from: [4,7], to: [3,6]
+Score for move: -9
+Move from: [4,7], to: [5,6]
+Score for move: -9
+Move from: [4,7], to: [6,5]
+Score for move: -9
+Move from: [4,7], to: [7,4]
+Score for move: -7
+Move from: [5,0], to: [6,0]
+Score for move: -7
+Move from: [5,0], to: [6,1]
+Score for move: -7
+Move from: [5,0], to: [4,0]
+Score for move: -7
+Move from: [5,0], to: [4,1]
+Score for move: -7
+N_Moves calculated: 25656
+Current Move Time: 1846
+Current Move Average: 17975
+Sending Move from: [5,0], to: [4,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+							
+p					R		
+n			r				
+K		p		p			B
+				k	p		
+				n			
+							
+Move from: [2,5], to: [2,6]
+Score for move: -9
+Move from: [2,5], to: [2,7]
+Score for move: -9
+Move from: [2,5], to: [2,4]
+Score for move: -9
+Move from: [2,5], to: [2,3]
+Score for move: -12
+Move from: [2,5], to: [2,2]
+Score for move: -12
+Move from: [2,5], to: [2,1]
+Score for move: -9
+Move from: [2,5], to: [2,0]
+Score for move: -8
+Move from: [2,5], to: [3,5]
+Score for move: -12
+Move from: [2,5], to: [4,5]
+Score for move: -12
+Move from: [2,5], to: [5,5]
+Score for move: -11
+Move from: [2,5], to: [1,5]
+Score for move: -7
+Move from: [2,5], to: [0,5]
+Score for move: -7
+Move from: [4,0], to: [4,1]
+Score for move: -7
+Move from: [4,0], to: [5,0]
+Score for move: -7
+Move from: [4,7], to: [3,6]
+Score for move: -9
+Move from: [4,7], to: [5,6]
+Score for move: -9
+Move from: [4,7], to: [6,5]
+Score for move: -9
+Move from: [4,7], to: [7,4]
+Score for move: -6
+N_Moves calculated: 30955
+Current Move Time: 2159
+Current Move Average: 17720
+Sending Move from: [4,7], to: [7,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+p					R		
+			r				
+K		p		p			
+				k	p		
+				n			
+				B			
+Move from: [2,5], to: [2,6]
+Score for move: -9
+Move from: [2,5], to: [2,7]
+Score for move: -7
+Move from: [2,5], to: [2,4]
+Score for move: -12
+Move from: [2,5], to: [2,3]
+Score for move: -12
+Move from: [2,5], to: [2,2]
+Score for move: -9
+Move from: [2,5], to: [2,1]
+Score for move: -9
+Move from: [2,5], to: [2,0]
+Score for move: -11
+Move from: [2,5], to: [3,5]
+Score for move: -12
+Move from: [2,5], to: [4,5]
+Score for move: -12
+Move from: [2,5], to: [5,5]
+Score for move: -11
+Move from: [2,5], to: [1,5]
+Score for move: -7
+Move from: [2,5], to: [0,5]
+Score for move: -7
+Move from: [4,0], to: [4,1]
+Score for move: -7
+Move from: [4,0], to: [5,0]
+Score for move: -7
+Move from: [7,4], to: [6,3]
+Score for move: -9
+Move from: [7,4], to: [5,2]
+Score for move: -10
+Move from: [7,4], to: [4,1]
+Score for move: -10
+Move from: [7,4], to: [3,0]
+Score for move: -10
+Move from: [7,4], to: [6,5]
+Score for move: -9
+Move from: [7,4], to: [5,6]
+Score for move: -10
+Move from: [7,4], to: [4,7]
+Score for move: -7
+N_Moves calculated: 28308
+Current Move Time: 1986
+Current Move Average: 17470
+Sending Move from: [7,4], to: [4,7]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+p					R		
+							r
+K		p		p			B
+				k	p		
+				n			
+							
+Move from: [2,5], to: [2,6]
+Score for move: -10
+Move from: [2,5], to: [2,7]
+Score for move: -12
+Move from: [2,5], to: [2,4]
+Score for move: -12
+Move from: [2,5], to: [2,3]
+Score for move: -12
+Move from: [2,5], to: [2,2]
+Score for move: -10
+Move from: [2,5], to: [2,1]
+Score for move: -10
+Move from: [2,5], to: [2,0]
+Score for move: -11
+Move from: [2,5], to: [3,5]
+Score for move: -12
+Move from: [2,5], to: [4,5]
+Score for move: -12
+Move from: [2,5], to: [5,5]
+Score for move: -11
+Move from: [2,5], to: [1,5]
+Score for move: -10
+Move from: [2,5], to: [0,5]
+Score for move: -10
+Move from: [4,0], to: [4,1]
+Score for move: -9
+Move from: [4,0], to: [5,0]
+Score for move: -9
+Move from: [4,7], to: [3,6]
+Score for move: -9
+Move from: [4,7], to: [5,6]
+Score for move: -10
+Move from: [4,7], to: [6,5]
+Score for move: -9
+Move from: [4,7], to: [7,4]
+Score for move: -7
+N_Moves calculated: 25261
+Current Move Time: 1724
+Current Move Average: 17224
+Sending Move from: [4,7], to: [7,4]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+p					R		
+							
+K		p		p			
+				k	p		
+				n			
+				B			r
+Move from: [2,5], to: [2,6]
+Score for move: -10
+Move from: [2,5], to: [2,7]
+Score for move: -12
+Move from: [2,5], to: [2,4]
+Score for move: -12
+Move from: [2,5], to: [2,3]
+Score for move: -12
+Move from: [2,5], to: [2,2]
+Score for move: -9
+Move from: [2,5], to: [2,1]
+Score for move: -10
+Move from: [2,5], to: [2,0]
+Score for move: -11
+Move from: [2,5], to: [3,5]
+Score for move: -10
+Move from: [2,5], to: [4,5]
+Score for move: -12
+Move from: [2,5], to: [5,5]
+Score for move: -11
+Move from: [2,5], to: [1,5]
+Score for move: -10
+Move from: [2,5], to: [0,5]
+Score for move: -10
+Move from: [4,0], to: [4,1]
+Score for move: -9
+Move from: [4,0], to: [5,0]
+Score for move: -9
+Move from: [7,4], to: [6,3]
+Score for move: -9
+Move from: [7,4], to: [5,2]
+Score for move: -10
+Move from: [7,4], to: [4,1]
+Score for move: -10
+Move from: [7,4], to: [3,0]
+Score for move: -10
+Move from: [7,4], to: [6,5]
+Score for move: -9
+Move from: [7,4], to: [5,6]
+Score for move: -10
+Move from: [7,4], to: [4,7]
+Score for move: -10
+N_Moves calculated: 29117
+Current Move Time: 2016
+Current Move Average: 16990
+Sending Move from: [4,0], to: [4,1]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+p					R		
+							
+	K	p		p			
+				k	p		
+				n			
+				r			
+Move from: [2,5], to: [2,6]
+Score for move: -15
+Move from: [2,5], to: [2,7]
+Score for move: -10
+Move from: [2,5], to: [2,4]
+Score for move: -14
+Move from: [2,5], to: [2,3]
+Score for move: -15
+Move from: [2,5], to: [2,2]
+Score for move: -16
+Move from: [2,5], to: [2,1]
+Score for move: -14
+Move from: [2,5], to: [2,0]
+Score for move: -9
+Move from: [2,5], to: [3,5]
+Score for move: -14
+Move from: [2,5], to: [4,5]
+Score for move: -14
+Move from: [2,5], to: [5,5]
+Score for move: -13
+Move from: [2,5], to: [1,5]
+Score for move: -14
+Move from: [2,5], to: [0,5]
+Score for move: -14
+Move from: [4,1], to: [4,2]
+Score for move: -13
+Move from: [4,1], to: [4,0]
+Score for move: -14
+Move from: [4,1], to: [5,0]
+Score for move: -14
+N_Moves calculated: 16111
+Current Move Time: 878
+Current Move Average: 16746
+Sending Move from: [2,5], to: [2,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+R							
+							
+	K	p	k	p			
+					p		
+				n			
+				r			
+Move from: [2,0], to: [2,1]
+Score for move: -14
+Move from: [2,0], to: [2,2]
+Score for move: -9
+Move from: [2,0], to: [2,3]
+Score for move: -14
+Move from: [2,0], to: [2,4]
+Score for move: -13
+Move from: [2,0], to: [2,5]
+Score for move: -9
+Move from: [2,0], to: [2,6]
+Score for move: -14
+Move from: [2,0], to: [2,7]
+Score for move: -14
+Move from: [2,0], to: [3,0]
+Score for move: -14
+Move from: [2,0], to: [4,0]
+Score for move: -16
+Move from: [2,0], to: [5,0]
+Score for move: -14
+Move from: [2,0], to: [6,0]
+Score for move: -9
+Move from: [2,0], to: [7,0]
+Score for move: -14
+Move from: [2,0], to: [1,0]
+Score for move: -13
+Move from: [2,0], to: [0,0]
+Score for move: -14
+Move from: [4,1], to: [4,0]
+Score for move: -14
+Move from: [4,1], to: [5,0]
+Score for move: -14
+Move from: [4,1], to: [3,1]
+Score for move: -14
+N_Moves calculated: 15514
+Current Move Time: 746
+Current Move Average: 16507
+Sending Move from: [2,0], to: [2,2]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+		R					
+							
+	K	p	k	p			
+					p		
+				n			
+	r						
+Move from: [4,1], to: [4,0]
+Score for move: -1008
+Move from: [4,1], to: [5,0]
+Score for move: -1008
+N_Moves calculated: 2167
+Current Move Time: 106
+Current Move Average: 16266
+Sending Move from: [4,1], to: [4,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+		R					
+							
+K		p	k	p			
+		n			p		
+							
+	r						
+Move from: [4,0], to: [5,0]
+Score for move: -9999
+N_Moves calculated: 737
+Current Move Time: 34
+Current Move Average: 16031
+Sending Move from: [4,0], to: [5,0]
+Move made!
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+Polling for updates on game state...
+							
+	n						
+		R					
+							
+		p	k	p			
+K	r	n			p		
+							
+							
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at Game.minimaxBestMove(Game.java:149)
+	at GameManager.playGame(GameManager.java:84)
+	at ChessPlayer.main(ChessPlayer.java:15)
+MacBook-Pro-6:bin markusnotti$ $
