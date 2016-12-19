@@ -48,9 +48,9 @@ public class GameTest {
 							  {"" ,  "",  "", "P",  "", "" , "" , "" },
 							  {"" ,  "",  "",  "",  "", "" , "" , "" },
 							  {"P", "P", "P",  "", "P", "P", "P", "P"},
-							  {"R", "N", "B", "K", "Q", "B", "N", "R"}};
+							  {"R", "N" , "B", "K", "Q", "B", "N", "R"}};
 		Game game = new Game(id, board, c_turn, Color.White);
-		Move bestMove = game.minimaxBestMove(1);
+		Move bestMove = game.minimaxBestMove(0);
 		assertEquals(3, bestMove.to[0]);
 		assertEquals(4, bestMove.to[1]);
 		assertEquals(4, bestMove.from[0]);
@@ -113,7 +113,7 @@ public class GameTest {
 							  {"" , "", "",  "", "", "", "", ""},
 							  {"" , "", "",  "", "", "", "", ""}};
 		Game game = new Game(id, board, c_turn, Color.White);
-		List<Move> possible_moves = game.allPossibleMoves(Color.White, game);
+		List<Move> possible_moves = game.allPossibleMoves(Color.White);
 		assertEquals(2, possible_moves.size());
 	}
 	
@@ -131,7 +131,7 @@ public class GameTest {
 							  {"" , "", "",  "", "", "", "", ""},
 							  {"" , "", "",  "", "k", "", "", ""}};
 		Game game = new Game(id, board, c_turn, Color.Black);
-		List<Move> possible_moves = game.allPossibleMoves(c_turn, game);
+		List<Move> possible_moves = game.allPossibleMoves(c_turn);
 		assertFalse(possible_moves.isEmpty());
 		Move bestMove = game.minimaxBestMove(2);
 		assertEquals(5, bestMove.from[0]);
@@ -154,7 +154,7 @@ public class GameTest {
 							  {"" , "", "",  "", "", "", "", ""},
 							  {"" , "", "",  "", "", "", "", ""}};
 		Game game = new Game(id, board, c_turn, Color.Black);
-		Move bestMove = game.minimaxBestMove(2);
+		game.minimaxBestMove(2);
 		assert(true);
 	}
 

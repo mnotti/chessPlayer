@@ -8,8 +8,7 @@ public class Rook extends Piece {
 	}
 	
 	public List<Move> allPossibleMoves(Game game){
-		List<Move> moves = new ArrayList<Move>();
-		moves = threatens(game);
+		List<Move> moves = threatens(game);
 		removeFriendlyTargetMoves(moves, game);
 		removeStillInCheckMoves(moves, game);
 		return moves;

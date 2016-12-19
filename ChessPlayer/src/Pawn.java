@@ -8,11 +8,9 @@ public class Pawn extends Piece {
 		super(color, position);
 	}
 	public List<Move> allPossibleMoves(Game game){
-		List<Move> moves = new ArrayList<Move>();
-		List<Move> attackingMoves = threatens(game);
+		List<Move> moves = threatens(game);
 		//remove attacking moves that aren't attacking an enemy piece (or en_passant)
-		filterAttackingMoves(attackingMoves, game);
-		moves.addAll(attackingMoves);
+		filterAttackingMoves(moves, game);
 		//determine all non attacking moves...
 		List<Move> blank_board_moves = blankBoardMoves(game);
 		removeBlockedMoves(blank_board_moves, game);

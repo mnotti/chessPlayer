@@ -94,10 +94,10 @@ public class Game {
 	}
 	
 	//returns all possible moves for the game ()
-	public List<Move> allPossibleMoves(Color color, Game game){
+	public List<Move> allPossibleMoves(Color color){
 		List<Move> moves = new ArrayList<Move>();
-		for (Piece piece : (color == Color.White ? game.white_pieces : game.black_pieces)){
-			List<Move> piece_moves = piece.allPossibleMoves(game);
+		for (Piece piece : (color == Color.White ? this.white_pieces : this.black_pieces)){
+			List<Move> piece_moves = piece.allPossibleMoves(this);
 			moves.addAll(piece_moves);
 		}
 		return moves;
@@ -105,7 +105,7 @@ public class Game {
 	
 	//moves are generated in the form [0,1, 0,0] (to: 0,0, from: 0,1)
 	public Move generateRandMove(){
-		List<Move> moves = allPossibleMoves(this.client_color, this);
+		List<Move> moves = allPossibleMoves(this.client_color);
 		if (moves.isEmpty()){
 			return null;
 		}
@@ -122,7 +122,7 @@ public class Game {
 		//get every possible move for client color
 		int current_best_score = 0;
 		Boolean current_best_move_set = false;
-		List<Move> possible_moves = allPossibleMoves(client_color, this);
+		List<Move> possible_moves = allPossibleMoves(client_color);
 		List<Move> best_moves = new ArrayList<Move>();
 		//System.out.println("before loop");
 		for (Move m : possible_moves){
@@ -161,7 +161,7 @@ public class Game {
 			color = (client_color == Color.White ? Color.Black : Color.White);
 		}
 		
-		List<Move> possible_moves = allPossibleMoves(color, game);
+		List<Move> possible_moves = game.allPossibleMoves(color);
 		//first check if no moves are possible...
 		if (possible_moves.isEmpty()){
 			if (color == client_color){
@@ -282,11 +282,8 @@ public class Game {
 				}
 			}
 		}
-		//TODO... king value
-		//king value... removed when 1 team has no possible moves left and the king is threatened check...
-		//int k_v = 999;
 		Color turn = game.turn;
-		List<Move> possible_moves_for_next_player = allPossibleMoves(turn, game);
+		List<Move> possible_moves_for_next_player = game.allPossibleMoves(turn);
 		if(possible_moves_for_next_player.isEmpty()){
 			if(turn == Color.White){
 				white_score -= 999;
